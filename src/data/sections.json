@@ -110,5 +110,53 @@
     "tasksCompleted": 0,
     "quizzesCompleted": 0,
     "summaryCompleted": false
+  },
+  {
+    "id": "08",
+    "title": "Modern JavaScript (ES6+)",
+    "description": "ES6 features including let, const, template literals, spread operator, destructuring, and modern array methods.",
+    "fullDescription": "Learn modern JavaScript syntax and features such as block-scoped variables, template literals, default parameters, spread operator, arrow functions, destructuring, and advanced array methods like filter, find, map, and forEach.",
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "icon": "javascript",
+    "duration": "3h 00m",
+    "progress": 0,
+    "taskCount": 4,
+    "quizCount": 5,
+    "tasksCompleted": 0,
+    "quizzesCompleted": 0,
+    "summaryCompleted": false
+  },
+  {
+    "id": "09",
+    "title": "APIs & Asynchronous JavaScript",
+    "description": "AJAX, APIs, Fetch API, Promises, Async/Await, and working with remote data.",
+    "fullDescription": "Learn how web applications communicate with APIs using AJAX concepts, XMLHttpRequest, Fetch API, Promises, callback functions, Async/Await, JSON parsing, and dynamic content rendering with JavaScript.",
+    "category": "JavaScript",
+    "difficulty": "Medium",
+    "icon": "cloud_sync",
+    "duration": "3h 00m",
+    "progress": 0,
+    "taskCount": 4,
+    "quizCount": 5,
+    "tasksCompleted": 0,
+    "quizzesCompleted": 0,
+    "summaryCompleted": false
+  },
+  {
+    "id": "10",
+    "title": "NoSQL & MongoDB Fundamentals",
+    "description": "NoSQL databases, MongoDB architecture, BSON, and shell CRUD operations.",
+    "fullDescription": "Understand NoSQL database paradigms, ACID vs BASE consistency models, and master MongoDB core concepts including documents, BSON, shell queries, operators, projections, array modifications, and aggregation basics.",
+    "category": "Database",
+    "difficulty": "Medium",
+    "icon": "database",
+    "duration": "3h 30m",
+    "progress": 0,
+    "taskCount": 5,
+    "quizCount": 5,
+    "tasksCompleted": 0,
+    "quizzesCompleted": 0,
+    "summaryCompleted": false
   }
 ]

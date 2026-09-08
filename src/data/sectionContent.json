@@ -618,5 +618,321 @@
         "id": "summary"
       }
     ]
+  },
+  {
+    "sectionId": "08",
+    "title": "Modern JavaScript (ES6+)",
+    "readTime": "25 min read",
+    "file": "../content/sections/08-modern-javascript-es6.md",
+    "tableOfContents": [
+      {
+        "label": "Introduction",
+        "id": "introduction"
+      },
+      {
+        "label": "Variable Declarations",
+        "id": "variable-declarations"
+      },
+      {
+        "label": "Hoisting",
+        "id": "hoisting"
+      },
+      {
+        "label": "Template Literals",
+        "id": "template-literals"
+      },
+      {
+        "label": "Default Parameters",
+        "id": "default-parameters"
+      },
+      {
+        "label": "Spread Operator",
+        "id": "spread-operator"
+      },
+      {
+        "label": "Arrow Functions",
+        "id": "arrow-functions"
+      },
+      {
+        "label": "Destructuring",
+        "id": "destructuring"
+      },
+      {
+        "label": "Modern Array Methods",
+        "id": "modern-array-methods"
+      },
+      {
+        "label": "Additional Array Methods",
+        "id": "additional-array-methods"
+      },
+      {
+        "label": "String Methods",
+        "id": "string-methods"
+      }
+    ]
+  },
+  {
+    "sectionId": "09",
+    "title": "APIs & Asynchronous JavaScript",
+    "readTime": "25 min read",
+    "file": "../content/sections/09-apis-async-javascript.md",
+    "tableOfContents": [
+      {
+        "label": "Introduction",
+        "id": "introduction"
+      },
+      {
+        "label": "What is an API?",
+        "id": "what-is-an-api?"
+      },
+      {
+        "label": "CRUD Operations",
+        "id": "crud-operations"
+      },
+      {
+        "label": "JSON",
+        "id": "json"
+      },
+      {
+        "label": "AJAX",
+        "id": "ajax"
+      },
+      {
+        "label": "XMLHttpRequest (XHR)",
+        "id": "xmlhttprequest-(xhr)"
+      },
+      {
+        "label": "XMLHttpRequest Ready States",
+        "id": "xmlhttprequest-ready-states"
+      },
+      {
+        "label": "Parsing JSON Responses",
+        "id": "parsing-json-responses"
+      },
+      {
+        "label": "Dynamic HTML Generation",
+        "id": "dynamic-html-generation"
+      },
+      {
+        "label": "Callback Functions",
+        "id": "callback-functions"
+      },
+      {
+        "label": "Callback Hell",
+        "id": "callback-hell"
+      },
+      {
+        "label": "Promises",
+        "id": "promises"
+      },
+      {
+        "label": "Promise Methods",
+        "id": "promise-methods"
+      },
+      {
+        "label": "Promise Chaining",
+        "id": "promise-chaining"
+      },
+      {
+        "label": "Fetch API",
+        "id": "fetch-api"
+      },
+      {
+        "label": "Using Fetch",
+        "id": "using-fetch"
+      },
+      {
+        "label": "Async and Await",
+        "id": "async-and-await"
+      },
+      {
+        "label": "Fetch with Async/Await",
+        "id": "fetch-with-async/await"
+      },
+      {
+        "label": "Sequential Async Operations",
+        "id": "sequential-async-operations"
+      },
+      {
+        "label": "Bootstrap Cards with API Data",
+        "id": "bootstrap-cards-with-api-data"
+      },
+      {
+        "label": "Summary",
+        "id": "summary"
+      }
+    ]
+  },
+  {
+    "sectionId": "10",
+    "title": "NoSQL & MongoDB Fundamentals",
+    "readTime": "30 min read",
+    "file": "../content/sections/10-nosql-mongodb-fundamentals.md",
+    "tableOfContents": [
+      {
+        "label": "What is NoSQL?",
+        "id": "what-is-nosql"
+      },
+      {
+        "label": "NoSQL Types",
+        "id": "nosql-types"
+      },
+      {
+        "label": "ACID vs BASE",
+        "id": "acid-vs-base"
+      },
+      {
+        "label": "What is MongoDB?",
+        "id": "what-is-mongodb?"
+      },
+      {
+        "label": "MongoDB Structure",
+        "id": "mongodb-structure"
+      },
+      {
+        "label": "BSON",
+        "id": "bson"
+      },
+      {
+        "label": "MongoDB vs SQL",
+        "id": "mongodb-vs-sql"
+      },
+      {
+        "label": "Show Databases",
+        "id": "show-databases"
+      },
+      {
+        "label": "Switch/Create Database",
+        "id": "switch/create-database"
+      },
+      {
+        "label": "Create Collection",
+        "id": "create-collection"
+      },
+      {
+        "label": "Delete Collection",
+        "id": "delete-collection"
+      },
+      {
+        "label": "Delete Database",
+        "id": "delete-database"
+      },
+      {
+        "label": "insertOne()",
+        "id": "insertone()"
+      },
+      {
+        "label": "insertMany()",
+        "id": "insertmany()"
+      },
+      {
+        "label": "find()",
+        "id": "find()"
+      },
+      {
+        "label": "findOne()",
+        "id": "findone()"
+      },
+      {
+        "label": "find() with Filter",
+        "id": "find()-with-filter"
+      },
+      {
+        "label": "Greater Than ($gt)",
+        "id": "greater-than-($gt)"
+      },
+      {
+        "label": "Less Than ($lt)",
+        "id": "less-than-($lt)"
+      },
+      {
+        "label": "Greater Than or Equal ($gte)",
+        "id": "greater-than-or-equal-($gte)"
+      },
+      {
+        "label": "Less Than or Equal ($lte)",
+        "id": "less-than-or-equal-($lte)"
+      },
+      {
+        "label": "$and",
+        "id": "$and"
+      },
+      {
+        "label": "$or",
+        "id": "$or"
+      },
+      {
+        "label": "$all",
+        "id": "$all"
+      },
+      {
+        "label": "$in",
+        "id": "$in"
+      },
+      {
+        "label": "$nin",
+        "id": "$nin"
+      },
+      {
+        "label": "$size",
+        "id": "$size"
+      },
+      {
+        "label": "Syntax",
+        "id": "syntax"
+      },
+      {
+        "label": "updateOne()",
+        "id": "updateone()"
+      },
+      {
+        "label": "updateMany()",
+        "id": "updatemany()"
+      },
+      {
+        "label": "$set",
+        "id": "$set"
+      },
+      {
+        "label": "$unset",
+        "id": "$unset"
+      },
+      {
+        "label": "$inc",
+        "id": "$inc"
+      },
+      {
+        "label": "$push",
+        "id": "$push"
+      },
+      {
+        "label": "$pull",
+        "id": "$pull"
+      },
+      {
+        "label": "$addToSet",
+        "id": "$addtoset"
+      },
+      {
+        "label": "deleteOne()",
+        "id": "deleteone()"
+      },
+      {
+        "label": "deleteMany()",
+        "id": "deletemany()"
+      },
+      {
+        "label": "findOneAndUpdate()",
+        "id": "findoneandupdate()"
+      },
+      {
+        "label": "Index Creation",
+        "id": "index-creation"
+      },
+      {
+        "label": "Aggregation",
+        "id": "aggregation"
+      }
+    ]
   }
 ]

@@ -3890,5 +3890,1398 @@
         "correctIndex": 0
       }
     ]
+  },
+  {
+    "sectionId": "08",
+    "sectionTitle": "Modern JavaScript (ES6+) Fundamentals",
+    "questions": [
+      {
+        "id": "quiz-08-01",
+        "question": "Which ECMAScript version introduced let and const?",
+        "options": [
+          "ES5",
+          "ES6",
+          "ES3",
+          "ES7"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-02",
+        "question": "Which keyword allows both redeclaration and reassignment?",
+        "options": [
+          "let",
+          "const",
+          "var",
+          "static"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-03",
+        "question": "Which variable declaration is block scoped and can be reassigned?",
+        "options": [
+          "var",
+          "const",
+          "let",
+          "function"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-04",
+        "question": "Which keyword cannot be reassigned after initialization?",
+        "options": [
+          "var",
+          "let",
+          "const",
+          "value"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-05",
+        "question": "Which variable declaration is function scoped?",
+        "options": [
+          "let",
+          "const",
+          "var",
+          "class"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-06",
+        "question": "What is hoisting?",
+        "options": [
+          "Moving declarations to the top of their scope before execution",
+          "Moving variables to another file",
+          "Creating global variables",
+          "Removing variables from memory"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-08-07",
+        "question": "Which type of function is hoisted?",
+        "options": [
+          "Arrow functions",
+          "Function declarations",
+          "Function expressions",
+          "Anonymous functions"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-08",
+        "question": "Template literals use which character?",
+        "options": [
+          "Single quote (')",
+          "Double quote (\")",
+          "Backtick (`)",
+          "Hash (#)"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-09",
+        "question": "Which syntax is used for variable interpolation inside template literals?",
+        "options": [
+          "#{variable}",
+          "${variable}",
+          "(variable)",
+          "@variable"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-10",
+        "question": "One advantage of template literals is:",
+        "options": [
+          "They remove variables",
+          "They support multiline strings",
+          "They only work with numbers",
+          "They prevent loops"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-11",
+        "question": "What happens when an argument is omitted and a default parameter exists?",
+        "options": [
+          "The function throws an error",
+          "undefined is always used",
+          "The default value is used",
+          "The function stops executing"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-12",
+        "question": "Which operator is known as the spread operator?",
+        "options": [
+          "..",
+          "...",
+          "=>",
+          "**"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-13",
+        "question": "What is a common use of the spread operator?",
+        "options": [
+          "Creating loops",
+          "Copying arrays",
+          "Declaring variables",
+          "Creating classes"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-14",
+        "question": "What will [...arr1, ...arr2] do?",
+        "options": [
+          "Delete both arrays",
+          "Merge arrays",
+          "Sort arrays",
+          "Filter arrays"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-15",
+        "question": "The spread operator can be used to:",
+        "options": [
+          "Pass array elements as function arguments",
+          "Create CSS styles",
+          "Declare constants",
+          "Create objects only"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-08-16",
+        "question": "Arrow functions were introduced in:",
+        "options": [
+          "ES3",
+          "ES5",
+          "ES6",
+          "ES1"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-17",
+        "question": "Which syntax represents an arrow function?",
+        "options": [
+          "->",
+          "=>",
+          "::",
+          "==>"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-18",
+        "question": "What is a major advantage of arrow functions?",
+        "options": [
+          "Longer syntax",
+          "Shorter syntax",
+          "More semicolons",
+          "Automatic loops"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-19",
+        "question": "Arrow functions are commonly used with:",
+        "options": [
+          "HTML tags",
+          "CSS properties",
+          "Array methods",
+          "Databases"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-20",
+        "question": "What is destructuring?",
+        "options": [
+          "Deleting variables",
+          "Extracting values into variables",
+          "Creating arrays",
+          "Sorting objects"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-21",
+        "question": "Which statement demonstrates object destructuring?",
+        "options": [
+          "const [name] = person;",
+          "const { name } = person;",
+          "const name = { person };",
+          "const person = name;"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-22",
+        "question": "Which statement demonstrates array destructuring?",
+        "options": [
+          "const { x } = numbers;",
+          "const [x, y] = numbers;",
+          "const x = [numbers];",
+          "const (x, y) = numbers;"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-23",
+        "question": "Which array method returns all matching elements?",
+        "options": [
+          "find()",
+          "forEach()",
+          "filter()",
+          "reduce()"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-08-24",
+        "question": "Which array method returns only the first matching element?",
+        "options": [
+          "filter()",
+          "find()",
+          "map()",
+          "slice()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-08-25",
+        "question": "Which array method creates a new array by transforming each element?",
+        "options": [
+          "map()",
+          "find()",
+          "forEach()",
+          "some()"
+        ],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "sectionId": "09",
+    "sectionTitle": "Working with APIs and Asynchronous JavaScript",
+    "questions": [
+      {
+        "id": "quiz-09-01",
+        "question": "What does API stand for?",
+        "options": [
+          "Application Programming Interface",
+          "Application Process Integration",
+          "Advanced Program Interface",
+          "Automated Programming Instruction"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-02",
+        "question": "What is the primary purpose of an API?",
+        "options": [
+          "Create HTML pages",
+          "Allow applications to communicate and exchange data",
+          "Compile JavaScript code",
+          "Store CSS styles"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-03",
+        "question": "Which of the following is an example of an API?",
+        "options": [
+          "Weather API",
+          "HTML API",
+          "CSS API",
+          "Bootstrap API"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-04",
+        "question": "Which API was used in the section examples?",
+        "options": [
+          "OpenWeather API",
+          "Forkify API",
+          "Google Maps API",
+          "Stripe API"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-05",
+        "question": "What does CRUD stand for?",
+        "options": [
+          "Create, Read, Update, Delete",
+          "Copy, Read, Upload, Download",
+          "Create, Run, Use, Delete",
+          "Connect, Read, Update, Download"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-06",
+        "question": "Which HTTP method is used to retrieve data?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "DELETE"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-07",
+        "question": "Which HTTP method is used to create new data?",
+        "options": [
+          "GET",
+          "POST",
+          "DELETE",
+          "PATCH"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-08",
+        "question": "Which HTTP method is commonly used to remove data?",
+        "options": [
+          "GET",
+          "POST",
+          "DELETE",
+          "PUT"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-09",
+        "question": "Which methods are commonly used to update existing data?",
+        "options": [
+          "GET and POST",
+          "PUT and PATCH",
+          "DELETE and POST",
+          "GET and DELETE"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-10",
+        "question": "What does JSON stand for?",
+        "options": [
+          "Java Standard Object Notation",
+          "JavaScript Object Notation",
+          "Java Source Object Network",
+          "JavaScript Online Notation"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-11",
+        "question": "Why is JSON commonly used?",
+        "options": [
+          "It is lightweight and readable",
+          "It only works with Java",
+          "It replaces HTML",
+          "It stores images"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-12",
+        "question": "What does AJAX stand for?",
+        "options": [
+          "Advanced Java Application XML",
+          "Asynchronous JavaScript and XML",
+          "Automatic JavaScript XML",
+          "Asynchronous Java Application Exchange"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-13",
+        "question": "What is a major benefit of AJAX?",
+        "options": [
+          "Page refresh is always required",
+          "Dynamic updates without refreshing the page",
+          "It replaces CSS",
+          "It eliminates APIs"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-14",
+        "question": "Before Fetch API, developers commonly used:",
+        "options": [
+          "Axios",
+          "XMLHttpRequest",
+          "Bootstrap",
+          "JSON.parse"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-15",
+        "question": "Which object is created with `new XMLHttpRequest()`?",
+        "options": [
+          "Promise",
+          "Fetch",
+          "XHR object",
+          "JSON object"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-16",
+        "question": "What does `xml.open()` do?",
+        "options": [
+          "Parses JSON",
+          "Configures the request",
+          "Sends the request",
+          "Closes the connection"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-17",
+        "question": "Which method sends an XMLHttpRequest?",
+        "options": [
+          "run()",
+          "fetch()",
+          "execute()",
+          "send()"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-09-18",
+        "question": "What does readyState 0 mean?",
+        "options": [
+          "Response received",
+          "Request not initialized",
+          "Connection established",
+          "Processing request"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-19",
+        "question": "What does readyState 1 represent?",
+        "options": [
+          "Connection established",
+          "Response received",
+          "Processing request",
+          "Request completed"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-20",
+        "question": "What does readyState 2 represent?",
+        "options": [
+          "Response received",
+          "Request received",
+          "Connection established",
+          "Request deleted"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-21",
+        "question": "What does readyState 3 represent?",
+        "options": [
+          "Request initialized",
+          "Processing request",
+          "Request failed",
+          "Request completed"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-22",
+        "question": "What does readyState 4 represent?",
+        "options": [
+          "Connection established",
+          "Processing request",
+          "Response received",
+          "Request started"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-23",
+        "question": "Which event is commonly used to monitor XHR state changes?",
+        "options": [
+          "click",
+          "readystatechange",
+          "submit",
+          "change"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-24",
+        "question": "What does JSON.parse() do?",
+        "options": [
+          "Converts a JSON string into a JavaScript object",
+          "Converts CSS to JSON",
+          "Creates a Promise",
+          "Sends API requests"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-25",
+        "question": "Why do API responses often need JSON.parse()?",
+        "options": [
+          "They arrive as JSON strings",
+          "They arrive as CSS",
+          "They arrive as images",
+          "They arrive as HTML forms"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-26",
+        "question": "Template literals are commonly used for:",
+        "options": [
+          "Generating dynamic HTML",
+          "Creating databases",
+          "Installing packages",
+          "Compiling JavaScript"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-27",
+        "question": "Which property can be used to insert generated HTML into an element?",
+        "options": [
+          "textContent",
+          "innerHTML",
+          "className",
+          "style"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-28",
+        "question": "What is a callback function?",
+        "options": [
+          "A function passed as an argument to another function",
+          "A function that returns HTML",
+          "A function that creates JSON",
+          "A CSS function"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-29",
+        "question": "What is callback hell?",
+        "options": [
+          "Too many variables",
+          "Deeply nested callbacks that are hard to read",
+          "Using multiple APIs",
+          "A Promise error"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-30",
+        "question": "Promises were introduced mainly to solve:",
+        "options": [
+          "CSS conflicts",
+          "Callback hell",
+          "HTML rendering",
+          "JSON parsing"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-31",
+        "question": "What does a Promise represent?",
+        "options": [
+          "A future result of an asynchronous operation",
+          "A CSS animation",
+          "A JSON object",
+          "A database"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-32",
+        "question": "Which of the following is NOT a Promise state?",
+        "options": [
+          "Pending",
+          "Fulfilled",
+          "Rejected",
+          "Executing"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-09-33",
+        "question": "What is the initial state of a Promise?",
+        "options": [
+          "Rejected",
+          "Pending",
+          "Fulfilled",
+          "Resolved"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-34",
+        "question": "Which Promise method runs after success?",
+        "options": [
+          "catch()",
+          "finally()",
+          "then()",
+          "await()"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-35",
+        "question": "Which Promise method handles errors?",
+        "options": [
+          "then()",
+          "await()",
+          "resolve()",
+          "catch()"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-09-36",
+        "question": "Which Promise method runs regardless of success or failure?",
+        "options": [
+          "finally()",
+          "then()",
+          "catch()",
+          "resolve()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-37",
+        "question": "What is Promise chaining?",
+        "options": [
+          "Connecting multiple asynchronous operations using then()",
+          "Creating multiple variables",
+          "Combining arrays",
+          "Parsing JSON"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-38",
+        "question": "Fetch API is considered the modern replacement for:",
+        "options": [
+          "Bootstrap",
+          "JSON",
+          "XMLHttpRequest",
+          "Template literals"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-39",
+        "question": "What does fetch() return?",
+        "options": [
+          "An array",
+          "A string",
+          "A Promise",
+          "An HTML element"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-40",
+        "question": "Before using API data from fetch, the response is commonly converted using:",
+        "options": [
+          "response.parse()",
+          "response.object()",
+          "response.json()",
+          "response.textOnly()"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-41",
+        "question": "What does the async keyword do?",
+        "options": [
+          "Marks a function as asynchronous",
+          "Creates a loop",
+          "Parses JSON",
+          "Creates HTML"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-42",
+        "question": "What does await do?",
+        "options": [
+          "Stops JavaScript forever",
+          "Waits for a Promise to finish",
+          "Creates a Promise",
+          "Creates a callback"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-43",
+        "question": "Where can await normally be used?",
+        "options": [
+          "Inside an async function",
+          "Only inside loops",
+          "Only inside callbacks",
+          "Only with JSON"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-44",
+        "question": "What is a major advantage of async/await?",
+        "options": [
+          "More readable asynchronous code",
+          "Faster internet speed",
+          "No need for APIs",
+          "Automatic JSON parsing"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-45",
+        "question": "In `await fetch(url)`, what is being awaited?",
+        "options": [
+          "The HTTP request Promise",
+          "The CSS file",
+          "The HTML page",
+          "The JSON object"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-46",
+        "question": "What happens in sequential async operations using await?",
+        "options": [
+          "All operations run simultaneously",
+          "The next operation waits for the previous one to finish",
+          "Operations are skipped",
+          "The code becomes synchronous forever"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-09-47",
+        "question": "What Bootstrap component was used to display API data?",
+        "options": [
+          "Navbar",
+          "Carousel",
+          "Card",
+          "Modal"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-09-48",
+        "question": "Why are Bootstrap cards useful with API data?",
+        "options": [
+          "They help create dynamic interfaces quickly",
+          "They replace APIs",
+          "They convert JSON",
+          "They handle authentication"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-49",
+        "question": "Which technology allows updating page content without a full page refresh?",
+        "options": [
+          "AJAX",
+          "Bootstrap",
+          "HTML",
+          "CSS"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-09-50",
+        "question": "Which concepts are considered foundations for working with modern APIs in JavaScript?",
+        "options": [
+          "Promises, Fetch API, and Async/Await",
+          "Only HTML and CSS",
+          "Bootstrap and Flexbox",
+          "Selectors and Animations"
+        ],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "sectionId": "10",
+    "sectionTitle": "NoSQL & MongoDB",
+    "questions": [
+      {
+        "id": "quiz-10-01",
+        "question": "What does NoSQL generally mean?",
+        "options": [
+          "No Structured Query Language",
+          "Not Only SQL",
+          "New SQL",
+          "No Server Query Language"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-02",
+        "question": "Which of the following is a characteristic of NoSQL databases?",
+        "options": [
+          "They always require a fixed schema",
+          "They are always vertically scalable",
+          "They can support flexible data structures",
+          "They only store structured data"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-03",
+        "question": "What does horizontal scaling generally mean?",
+        "options": [
+          "Adding more resources to one server",
+          "Adding more servers to distribute the workload",
+          "Reducing the database size",
+          "Increasing only the CPU speed"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-04",
+        "question": "Which consistency model is more commonly associated with NoSQL databases?",
+        "options": [
+          "ACID",
+          "BASE",
+          "HTTP",
+          "CRUD"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-05",
+        "question": "Which of the following is an advantage of NoSQL?",
+        "options": [
+          "Flexible data models",
+          "Mandatory fixed schemas",
+          "Only supports small datasets",
+          "Requires SQL for every query"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-06",
+        "question": "Which of the following is a limitation commonly associated with NoSQL?",
+        "options": [
+          "Easy horizontal scaling",
+          "Flexible data models",
+          "No single standard query language across all NoSQL systems",
+          "Support for large amounts of data"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-07",
+        "question": "Which type of NoSQL database stores data as key-value pairs?",
+        "options": [
+          "Document database",
+          "Graph database",
+          "Key-value database",
+          "Column-oriented database"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-08",
+        "question": "Which of the following is a key-value database?",
+        "options": [
+          "MongoDB",
+          "Redis",
+          "Neo4j",
+          "Cassandra"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-09",
+        "question": "Which type of NoSQL database stores data as JSON-like documents?",
+        "options": [
+          "Document database",
+          "Key-value database",
+          "Graph database",
+          "Column-oriented database"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-10",
+        "question": "Which of the following is a document database?",
+        "options": [
+          "Redis",
+          "MongoDB",
+          "Neo4j",
+          "Cassandra"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-11",
+        "question": "Which type of NoSQL database stores data primarily by columns?",
+        "options": [
+          "Document database",
+          "Graph database",
+          "Column-oriented database",
+          "Key-value database"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-12",
+        "question": "Which of the following is a graph database?",
+        "options": [
+          "MongoDB",
+          "Redis",
+          "Neo4j",
+          "CouchDB"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-13",
+        "question": "What does ACID stand for?",
+        "options": [
+          "Atomicity, Consistency, Isolation, Durability",
+          "Availability, Consistency, Isolation, Distribution",
+          "Atomicity, Control, Integrity, Distribution",
+          "Availability, Control, Isolation, Durability"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-14",
+        "question": "What does BASE stand for?",
+        "options": [
+          "Basic Availability, Soft State, Eventual Consistency",
+          "Basic Access, Secure Execution",
+          "Binary Availability, Soft Execution",
+          "Basic Availability, Strong Execution"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-15",
+        "question": "Which of the following is NOT one of the ACID properties?",
+        "options": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Eventual Consistency"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-10-16",
+        "question": "What type of database is MongoDB?",
+        "options": [
+          "Relational database",
+          "Document-oriented NoSQL database",
+          "Graph database",
+          "Key-value database"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-17",
+        "question": "What format does MongoDB use internally to store documents?",
+        "options": [
+          "XML",
+          "HTML",
+          "BSON",
+          "CSV"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-18",
+        "question": "What does BSON stand for?",
+        "options": [
+          "Binary Structured Object Notation",
+          "Binary JSON",
+          "Basic JSON Object Notation",
+          "Browser JSON"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-19",
+        "question": "What is one advantage of BSON over JSON?",
+        "options": [
+          "It supports more data types",
+          "It can only store strings",
+          "It cannot store numbers",
+          "It is always smaller than JSON"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-20",
+        "question": "In MongoDB, what is equivalent to a SQL table?",
+        "options": [
+          "Document",
+          "Field",
+          "Collection",
+          "Database"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-21",
+        "question": "In MongoDB, what is roughly equivalent to a SQL row?",
+        "options": [
+          "Collection",
+          "Document",
+          "Database",
+          "Field"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-22",
+        "question": "In MongoDB, what is roughly equivalent to a SQL column?",
+        "options": [
+          "Document",
+          "Collection",
+          "Field",
+          "Database"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-23",
+        "question": "Which MongoDB hierarchy is correct?",
+        "options": [
+          "Collection → Database → Document",
+          "Database → Collection → Document",
+          "Document → Database → Collection",
+          "Database → Document → Collection"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-24",
+        "question": "Which command displays the available databases in the MongoDB shell?",
+        "options": [
+          "show databases",
+          "show dbs",
+          "list dbs",
+          "db.show()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-25",
+        "question": "What does `use SchoolDB` do?",
+        "options": [
+          "Deletes SchoolDB",
+          "Switches to SchoolDB or creates it when necessary",
+          "Creates a collection named SchoolDB",
+          "Displays all documents in SchoolDB"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-26",
+        "question": "Which command explicitly creates a collection named Students?",
+        "options": [
+          "db.Students.create()",
+          "db.createCollection(\"Students\")",
+          "create.Students()",
+          "db.newCollection(\"Students\")"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-27",
+        "question": "Which command deletes the Students collection?",
+        "options": [
+          "db.Students.delete()",
+          "db.Students.drop()",
+          "db.dropCollection()",
+          "delete Students"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-28",
+        "question": "Which command deletes the currently selected database?",
+        "options": [
+          "db.deleteDatabase()",
+          "db.removeDatabase()",
+          "db.dropDatabase()",
+          "drop db"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-29",
+        "question": "Which method inserts a single document?",
+        "options": [
+          "insert()",
+          "insertOne()",
+          "insertMany()",
+          "addOne()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-30",
+        "question": "Which method inserts multiple documents at once?",
+        "options": [
+          "insertOne()",
+          "insertMany()",
+          "insertAll()",
+          "addMany()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-31",
+        "question": "What does `db.Students.find()` return?",
+        "options": [
+          "The first student only",
+          "All documents in the collection",
+          "Only deleted documents",
+          "The collection name"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-32",
+        "question": "What does `findOne()` return?",
+        "options": [
+          "All matching documents",
+          "The first matching document",
+          "The last document",
+          "The entire database"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-33",
+        "question": "What does `db.Students.find({ age: 20 })` return?",
+        "options": [
+          "Students whose age is 20",
+          "All students except those aged 20",
+          "Only the first student regardless of age",
+          "Students whose age is greater than 20"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-34",
+        "question": "Which comparison operator means greater than?",
+        "options": [
+          "$lt",
+          "$lte",
+          "$gt",
+          "$gte"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-35",
+        "question": "What does `$lte` mean?",
+        "options": [
+          "Less than",
+          "Less than or equal to",
+          "Greater than",
+          "Greater than or equal to"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-36",
+        "question": "What does the following query find? `db.Products.find({ price: { $gt: 100 } })`",
+        "options": [
+          "Products with a price less than 100",
+          "Products with a price equal to 100",
+          "Products with a price greater than 100",
+          "All products"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-37",
+        "question": "What does the `$and` operator require?",
+        "options": [
+          "At least one condition to be true",
+          "All specified conditions to be true",
+          "No conditions to be true",
+          "Only the first condition to be true"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-38",
+        "question": "What does the `$or` operator require?",
+        "options": [
+          "All conditions to be true",
+          "At least one condition to be true",
+          "Exactly two conditions to be true",
+          "No conditions to be true"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-39",
+        "question": "What does `$all` do when querying an array?",
+        "options": [
+          "Requires the array to contain all specified values",
+          "Requires the array to contain only one specified value",
+          "Returns the array length",
+          "Removes duplicate values"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-40",
+        "question": "What does `$in` do?",
+        "options": [
+          "Matches when a value is one of the specified values",
+          "Matches only when all values exist",
+          "Removes matching values",
+          "Counts array elements"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-41",
+        "question": "What does `$nin` do?",
+        "options": [
+          "Matches values that are not in the specified list",
+          "Matches values that are in every list",
+          "Adds values to an array",
+          "Counts matching documents"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-42",
+        "question": "What does `$size: 2` check when used with an array?",
+        "options": [
+          "Whether the array contains the value 2",
+          "Whether the array has exactly 2 elements",
+          "Whether the array has more than 2 elements",
+          "Whether the array is empty"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-43",
+        "question": "What is projection used for in MongoDB?",
+        "options": [
+          "Selecting which fields should be returned",
+          "Deleting a collection",
+          "Creating an index",
+          "Updating every document"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-10-44",
+        "question": "In a projection, what does `name: 1` generally mean?",
+        "options": [
+          "Exclude the name field",
+          "Include the name field",
+          "Delete the name field",
+          "Rename the name field"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-45",
+        "question": "Which MongoDB method updates the first matching document?",
+        "options": [
+          "updateMany()",
+          "updateOne()",
+          "updateFirst()",
+          "modifyOne()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-46",
+        "question": "Which MongoDB operator creates or updates a field?",
+        "options": [
+          "$inc",
+          "$push",
+          "$set",
+          "$unset"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-10-47",
+        "question": "What does `$inc` do?",
+        "options": [
+          "Removes a numeric field",
+          "Increments a numeric value",
+          "Adds an item to an array",
+          "Creates an index"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-48",
+        "question": "Which operator adds an item to an array?",
+        "options": [
+          "$pull",
+          "$push",
+          "$unset",
+          "$inc"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-49",
+        "question": "What is the difference between `$push` and `$addToSet`?",
+        "options": [
+          "$push removes duplicates while $addToSet allows them",
+          "$push adds a value while $addToSet adds it only if it does not already exist",
+          "$push removes values while $addToSet adds values",
+          "There is no difference"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-10-50",
+        "question": "What is the purpose of creating an index in MongoDB?",
+        "options": [
+          "To delete duplicate documents",
+          "To make searches faster",
+          "To convert documents into SQL tables",
+          "To automatically update documents"
+        ],
+        "correctIndex": 1
+      }
+    ]
   }
 ]
