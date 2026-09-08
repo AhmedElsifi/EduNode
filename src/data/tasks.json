@@ -82,5 +82,21 @@
         "solution": ""
       }
     ]
+  },
+  {
+    "sectionId": "10",
+    "sectionTitle": "MongoDB Faculty System",
+    "tasks": [
+      {
+        "id": "mongo-10-01",
+        "number": 1,
+        "title": "Build a Faculty System with MongoDB",
+        "difficulty": "Medium",
+        "category": "ITI",
+        "description": "## MongoDB Day 1 Lab Assignments\n\nUse MongoDB to build and manage a Faculty System database while practicing database creation, collections, document insertion, querying, updating, and deletion.\n\n## FacultySystemDB\n\n### Database and Student Collection\n\n1. Create a database named `FacultySystemDB`.\n2. Create a `student` collection with the following fields:\n\n- `FirstName`: String\n- `LastName`: String\n- `Age`: Number\n- `Faculty`: Object containing `Name` and `Address`\n- `Grades`: Array of objects containing `CourseName`, `Grade`, and `Pass` (Boolean)\n- `IsFired`: Boolean\n\nExample document:\n\n```js\n{\n  fName: \"Mrihan\",\n  lName: \"Mohamed\",\n  age: 26,\n  faculty: {\n    name: \"FCI\",\n    address: \"Minia\"\n  },\n  grades: [\n    { cname: \"c#\", grade: 60, pass: true },\n    { cname: \"JS\", grade: 100, pass: true }\n  ],\n  isFired: false\n}\n```\n\n### Insert Documents\n\nInsert at least 3 student documents with different values.\n\nPractice both approaches:\n- Insert one document at a time.\n- Insert multiple documents using a collection of documents.\n\n## Queries\n\nRetrieve the following data:\n\n- Display all students.\n- Find a student with a specific first name.\n- Find students whose first name is `Ahmed` **or** whose last name is `Ahmed`.\n- Find students whose first name is not `Ahmed`.\n- Find students whose age is less than `21`.\n- Display all fired students.\n- Find students whose age is greater than or equal to `21` and whose faculty is not `null`.\n- Find a student with a specific first name and display only their `FirstName`, `LastName`, and `IsFired` fields.\n\n## Update Operations\n\nUpdate the student with a specific first name and change their last name.\n\nPractice the following operations:\n\n- `updateOne()`\n- `updateMany()`\n- `replaceOne()` / document replacement\n\n## Delete Operations\n\n- Delete all fired students.\n- Delete the entire `student` collection.\n- Delete the whole `FacultySystemDB` database.\n\n## FacultySystemV2\n\nCreate a new database named `FacultySystemV2`.\n\n### Student Collection\n\nCreate a `student` collection containing:\n\n- `FirstName`\n- `LastName`\n- `IsFired`\n- `FacultyID`\n- An array of objects containing `CourseID` and `Grade`\n\n### Faculty Collection\n\nCreate a `Faculty` collection containing:\n\n- Faculty Name\n- Address\n\n### Course Collection\n\nCreate a `Course` collection containing:\n\n- Course Name\n- Final Mark\n\nInsert sample data into all three collections and use IDs to establish relationships between students, faculties, and courses.\n\n## Bonus\n\n1. Install Redis and practice inserting and retrieving data.\n2. Create a C# desktop or web application that can retrieve and insert data into MongoDB.\n3. Retrieve and display each student along with their grades for the courses they studied using `FacultySystemV2`.\n4. Add your own custom key to any collection.",
+        "hint": "Start by creating `FacultySystemDB` and the student collection, then practice inserting documents before moving on to queries, updates, and deletion. For `FacultySystemV2`, think about how `FacultyID` and `CourseID` can connect documents across collections.",
+        "solution": ""
+      }
+    ]
   }
 ]
