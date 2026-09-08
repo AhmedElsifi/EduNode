@@ -88,5 +88,275 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
     "meta": "Beginner • Reference",
     "icon": "link"
+  },
+  {
+    "id": 11,
+    "title": "MDN JavaScript Guide",
+    "category": "Documentation",
+    "description": "JavaScript language guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "meta": "Beginner • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 12,
+    "title": "MDN JavaScript Reference",
+    "category": "Documentation",
+    "description": "Complete JavaScript reference",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "meta": "Intermediate • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 13,
+    "title": "MDN ECMAScript 6 Guide",
+    "category": "Documentation",
+    "description": "Modern JavaScript features and syntax",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "meta": "Intermediate • ES6+",
+    "icon": "library_books"
+  },
+  {
+    "id": 14,
+    "title": "JavaScript.info",
+    "category": "Articles",
+    "description": "Modern JavaScript tutorial",
+    "url": "https://javascript.info/",
+    "meta": "Beginner • Advanced",
+    "icon": "article"
+  },
+  {
+    "id": 15,
+    "title": "JavaScript Cheat Sheet",
+    "category": "Cheat Sheets",
+    "description": "JavaScript syntax and methods reference",
+    "url": "https://quickref.me/javascript",
+    "meta": "All Levels • Quick Reference",
+    "icon": "link"
+  },
+  {
+    "id": 16,
+    "title": "JSON Documentation",
+    "category": "Documentation",
+    "description": "JSON syntax and data format reference",
+    "url": "https://www.json.org/",
+    "meta": "Beginner • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 17,
+    "title": "MongoDB Documentation",
+    "category": "Documentation",
+    "description": "Official MongoDB documentation",
+    "url": "https://www.mongodb.com/docs/",
+    "meta": "All Levels • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 18,
+    "title": "MongoDB Manual",
+    "category": "Documentation",
+    "description": "MongoDB database manual and query reference",
+    "url": "https://www.mongodb.com/docs/manual/",
+    "meta": "Intermediate • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 19,
+    "title": "MongoDB CRUD Operations",
+    "category": "Documentation",
+    "description": "Create, read, update, and delete MongoDB documents",
+    "url": "https://www.mongodb.com/docs/manual/crud/",
+    "meta": "Beginner • Tutorial",
+    "icon": "library_books"
+  },
+  {
+    "id": 20,
+    "title": "MongoDB Query Language Reference",
+    "category": "Documentation",
+    "description": "MongoDB query operators and syntax",
+    "url": "https://www.mongodb.com/docs/manual/reference/",
+    "meta": "Intermediate • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 21,
+    "title": "MongoDB Community Server",
+    "category": "Tools",
+    "description": "Download MongoDB Community Server",
+    "url": "https://www.mongodb.com/try/download/community",
+    "meta": "All Levels • Download",
+    "icon": "download"
+  },
+  {
+    "id": 22,
+    "title": "MongoDB Installation Guide",
+    "category": "Tools",
+    "description": "Install MongoDB Community Edition",
+    "url": "https://www.mongodb.com/docs/manual/installation/",
+    "meta": "Beginner • Setup",
+    "icon": "download"
+  },
+  {
+    "id": 23,
+    "title": "MongoDB Compass",
+    "category": "Tools",
+    "description": "MongoDB graphical user interface",
+    "url": "https://www.mongodb.com/try/download/compass",
+    "meta": "Beginner • GUI",
+    "icon": "desktop_windows"
+  },
+  {
+    "id": 24,
+    "title": "MongoDB Compass Documentation",
+    "category": "Documentation",
+    "description": "Learn how to use MongoDB Compass",
+    "url": "https://www.mongodb.com/docs/compass/",
+    "meta": "Beginner • Guide",
+    "icon": "library_books"
+  },
+  {
+    "id": 25,
+    "title": "MongoDB Shell (mongosh)",
+    "category": "Tools",
+    "description": "MongoDB command-line shell",
+    "url": "https://www.mongodb.com/docs/mongodb-shell/",
+    "meta": "Beginner • CLI",
+    "icon": "terminal"
+  },
+  {
+    "id": 26,
+    "title": "MongoDB Shell Download",
+    "category": "Tools",
+    "description": "Download the MongoDB Shell",
+    "url": "https://www.mongodb.com/try/download/shell",
+    "meta": "Beginner • Download",
+    "icon": "download"
+  },
+  {
+    "id": 27,
+    "title": "MongoDB Atlas",
+    "category": "Tools",
+    "description": "Cloud database platform for MongoDB",
+    "url": "https://www.mongodb.com/atlas",
+    "meta": "Beginner • Cloud",
+    "icon": "cloud"
+  },
+  {
+    "id": 28,
+    "title": "MongoDB Atlas Documentation",
+    "category": "Documentation",
+    "description": "MongoDB cloud database documentation",
+    "url": "https://www.mongodb.com/docs/atlas/",
+    "meta": "Intermediate • Cloud",
+    "icon": "library_books"
+  },
+  {
+    "id": 29,
+    "title": "MongoDB University",
+    "category": "Courses",
+    "description": "MongoDB courses and learning resources",
+    "url": "https://learn.mongodb.com/",
+    "meta": "Beginner • Courses",
+    "icon": "school"
+  },
+  {
+    "id": 30,
+    "title": "MongoDB Tutorials",
+    "category": "Articles",
+    "description": "Official MongoDB tutorials",
+    "url": "https://www.mongodb.com/docs/manual/tutorial/",
+    "meta": "Beginner • Tutorial",
+    "icon": "article"
+  },
+  {
+    "id": 31,
+    "title": "MongoDB Aggregation Documentation",
+    "category": "Documentation",
+    "description": "Aggregation pipelines and operations",
+    "url": "https://www.mongodb.com/docs/manual/aggregation/",
+    "meta": "Intermediate • Reference",
+    "icon": "library_books"
+  },
+  {
+    "id": 32,
+    "title": "MongoDB Data Modeling",
+    "category": "Documentation",
+    "description": "MongoDB schema and data modeling patterns",
+    "url": "https://www.mongodb.com/docs/manual/core/data-modeling-introduction/",
+    "meta": "Intermediate • Guide",
+    "icon": "library_books"
+  },
+  {
+    "id": 33,
+    "title": "MongoDB Node.js Driver",
+    "category": "Documentation",
+    "description": "Official MongoDB driver for Node.js",
+    "url": "https://www.mongodb.com/docs/drivers/node/current/",
+    "meta": "Intermediate • Node.js",
+    "icon": "code"
+  },
+  {
+    "id": 34,
+    "title": "MongoDB Connection Strings",
+    "category": "Cheat Sheets",
+    "description": "MongoDB connection string reference",
+    "url": "https://www.mongodb.com/docs/manual/reference/connection-string/",
+    "meta": "Intermediate • Quick Reference",
+    "icon": "link"
+  },
+  {
+    "id": 35,
+    "title": "MongoDB Query Operators",
+    "category": "Cheat Sheets",
+    "description": "MongoDB query and comparison operators",
+    "url": "https://www.mongodb.com/docs/manual/reference/operator/query/",
+    "meta": "Intermediate • Quick Reference",
+    "icon": "link"
+  },
+  {
+    "id": 36,
+    "title": "MongoDB Update Operators",
+    "category": "Cheat Sheets",
+    "description": "MongoDB update operators such as $set and $inc",
+    "url": "https://www.mongodb.com/docs/manual/reference/operator/update/",
+    "meta": "Intermediate • Quick Reference",
+    "icon": "link"
+  },
+  {
+    "id": 37,
+    "title": "MongoDB Aggregation Pipeline",
+    "category": "Articles",
+    "description": "Build data processing pipelines with MongoDB",
+    "url": "https://www.mongodb.com/docs/manual/core/aggregation-pipeline/",
+    "meta": "Intermediate • Guide",
+    "icon": "article"
+  },
+  {
+    "id": 38,
+    "title": "Can I Use",
+    "category": "Tools",
+    "description": "Browser compatibility tables",
+    "url": "https://caniuse.com/",
+    "meta": "All Levels • Reference",
+    "icon": "code"
+  },
+  {
+    "id": 39,
+    "title": "Chrome DevTools",
+    "category": "Tools",
+    "description": "Browser debugging and development tools",
+    "url": "https://developer.chrome.com/docs/devtools/",
+    "meta": "Intermediate • Tool",
+    "icon": "code"
+  },
+  {
+    "id": 40,
+    "title": "Node.js Documentation",
+    "category": "Documentation",
+    "description": "Official Node.js API documentation",
+    "url": "https://nodejs.org/docs/latest/api/",
+    "meta": "Intermediate • Reference",
+    "icon": "library_books"
   }
 ]
