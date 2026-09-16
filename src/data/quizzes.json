@@ -5283,5 +5283,1673 @@
         "correctIndex": 1
       }
     ]
+  },
+  {
+    "sectionId": "12",
+    "sectionTitle": "HTTP and Node.js Fundamentals",
+    "questions": [
+      {
+        "id": "quiz-12-01",
+        "question": "What is a protocol in computer networking?",
+        "options": [
+          "A programming language used for backend logic",
+          "A set of rules defining how two systems communicate and exchange data",
+          "A database engine for storing web application data",
+          "A hardware device used to connect clients to servers"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-02",
+        "question": "Which protocol is standard for basic web communication between a client and a server?",
+        "options": [
+          "FTP",
+          "SMTP",
+          "HTTP",
+          "WebSocket"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-03",
+        "question": "What distinguishes HTTPS from standard HTTP?",
+        "options": [
+          "HTTPS supports faster file downloads",
+          "HTTPS uses encryption for secure communication",
+          "HTTPS is strictly used for email transfer",
+          "HTTPS does not require an IP address"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-04",
+        "question": "Which protocol is primarily designed for file transfer between systems?",
+        "options": [
+          "SMTP",
+          "FTP",
+          "HTTP",
+          "HTTPS"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-05",
+        "question": "Which protocol is dedicated to sending emails?",
+        "options": [
+          "SMTP",
+          "FTP",
+          "WebSocket",
+          "HTTP"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-12-06",
+        "question": "What is the key advantage of using the WebSocket protocol?",
+        "options": [
+          "It eliminates the need for IP addresses",
+          "It enables persistent, two-way communication between client and server",
+          "It encrypts HTTP status codes automatically",
+          "It replaces the need for JavaScript engines"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-07",
+        "question": "Which HTTP request method is used to retrieve data from a server?",
+        "options": [
+          "POST",
+          "PUT",
+          "GET",
+          "DELETE"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-08",
+        "question": "Which HTTP request method is used to create or submit new data?",
+        "options": [
+          "GET",
+          "POST",
+          "PATCH",
+          "DELETE"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-09",
+        "question": "Which HTTP method is typically used to completely replace existing data on a server?",
+        "options": [
+          "PATCH",
+          "PUT",
+          "GET",
+          "POST"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-10",
+        "question": "Which HTTP method is best suited for partially updating an existing resource?",
+        "options": [
+          "PUT",
+          "POST",
+          "PATCH",
+          "DELETE"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-11",
+        "question": "Which HTTP method is used to remove data from a server?",
+        "options": [
+          "DELETE",
+          "PATCH",
+          "POST",
+          "PUT"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-12-12",
+        "question": "What type of response range is represented by status codes 200–299?",
+        "options": [
+          "Redirection",
+          "Client error",
+          "Successful request",
+          "Server error"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-13",
+        "question": "What type of response range is represented by status codes 300–399?",
+        "options": [
+          "Successful request",
+          "Redirection",
+          "Client error",
+          "Server error"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-14",
+        "question": "What range of HTTP status codes indicates a client error?",
+        "options": [
+          "200–299",
+          "300–399",
+          "400–499",
+          "500–599"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-15",
+        "question": "What range of HTTP status codes indicates a server error?",
+        "options": [
+          "200–299",
+          "300–399",
+          "400–499",
+          "500–599"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-12-16",
+        "question": "What does an HTTP status code of `200 OK` mean?",
+        "options": [
+          "The requested endpoint does not exist",
+          "The request succeeded",
+          "The server encountered an unexpected error",
+          "The client needs to redirect to another URL"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-17",
+        "question": "What does an HTTP status code of `404 Not Found` indicate?",
+        "options": [
+          "The server encountered an internal error",
+          "The request was processed successfully",
+          "The requested resource or endpoint does not exist",
+          "The request was redirected permanently"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-18",
+        "question": "What does an HTTP status code of `500 Internal Server Error` indicate?",
+        "options": [
+          "The server encountered an error while processing the request",
+          "The client sent invalid authentication credentials",
+          "The resource has moved to a new endpoint",
+          "The client omitted a required request body"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-12-19",
+        "question": "What website is explicitly mentioned as a useful tool for visualizing HTTP status codes?",
+        "options": [
+          "http.dog",
+          "http.cat",
+          "statuscode.io",
+          "developer.mozilla.org"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-20",
+        "question": "What is Node.js?",
+        "options": [
+          "A frontend CSS framework",
+          "A programming language distinct from JavaScript",
+          "A JavaScript runtime environment for running code outside the browser",
+          "A relational database management system"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-21",
+        "question": "Which statement accurately describes Node.js?",
+        "options": [
+          "Node.js is a new programming language introduced to replace JavaScript",
+          "Node.js is a runtime environment, not a programming language",
+          "Node.js runs exclusively inside browser engines like V8",
+          "Node.js can only be used to write client-side UI code"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-22",
+        "question": "Which of the following CANNOT be built directly using Node.js?",
+        "options": [
+          "HTTP servers",
+          "REST APIs",
+          "Web browser rendering engines",
+          "CLI applications"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-23",
+        "question": "Which type of Node.js modules are built-in and do not require external installation?",
+        "options": [
+          "Third-party modules",
+          "Core / Built-in modules",
+          "NPM modules",
+          "Custom modules"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-24",
+        "question": "Which built-in Node.js module is used to work with the system's files?",
+        "options": [
+          "http",
+          "fs",
+          "os",
+          "path"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-25",
+        "question": "Which built-in Node.js module is used to create HTTP servers?",
+        "options": [
+          "fs",
+          "net",
+          "http",
+          "url"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-26",
+        "question": "Which built-in Node.js module interacts with operating-system information?",
+        "options": [
+          "sys",
+          "os",
+          "process",
+          "env"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-27",
+        "question": "How are third-party Node.js packages typically installed in a project?",
+        "options": [
+          "Included natively using standard script tags",
+          "Downloaded manually from github into built-in directories",
+          "Installed via the npm package manager (`npm install package-name`)",
+          "Compiled directly into the Node.js executable binary"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-28",
+        "question": "Which method of the `http` module is used to initialize an HTTP server?",
+        "options": [
+          "http.startServer()",
+          "http.createServer()",
+          "http.init()",
+          "http.newServer()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-29",
+        "question": "In the `http.createServer((req, res) => {})` callback, what does `req` represent?",
+        "options": [
+          "The object used to send data back to the browser",
+          "The incoming request object containing request details",
+          "The response headers object",
+          "The module dependency resolution object"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-30",
+        "question": "In the `http.createServer((req, res) => {})` callback, what does `res` represent?",
+        "options": [
+          "The incoming payload stream from the client",
+          "The object used to construct and send a response back to the client",
+          "The global resource handle for the operating system",
+          "The routing module instance"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-31",
+        "question": "Which method is called on a server instance to make it listen for incoming connections on a port?",
+        "options": [
+          "server.run()",
+          "server.listen()",
+          "server.start()",
+          "server.bind()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-32",
+        "question": "If a server executes `server.listen(3000)`, how is it accessed locally in a browser?",
+        "options": [
+          "http://server:3000",
+          "http://localhost:3000",
+          "http://127.0.0.1/3000",
+          "http://node:3000"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-33",
+        "question": "Which response header should be set when returning JSON data to the client?",
+        "options": [
+          "res.setHeader(\"Content-Type\", \"text/html\")",
+          "res.setHeader(\"Content-Type\", \"application/json\")",
+          "res.setHeader(\"Type\", \"json\")",
+          "res.setHeader(\"Accept\", \"application/json\")"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-34",
+        "question": "Why can't JavaScript objects be sent directly into `res.end()`?",
+        "options": [
+          "Objects exceed the memory limit of HTTP responses",
+          "HTTP requires response data to be sent as strings or buffers, not raw JS objects",
+          "Node.js automatically converts objects into XML unless prevented",
+          "The browser only accepts binary buffers"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-35",
+        "question": "Which JavaScript method converts a JavaScript object or array into a JSON string for an HTTP response?",
+        "options": [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "Object.toString()",
+          "HTTP.serialize()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-36",
+        "question": "Without a framework like Express, how are HTTP routes manually determined in basic Node.js?",
+        "options": [
+          "By examining `req.url` and `req.method`",
+          "By configuring `server.routes`",
+          "By calling `http.route()`",
+          "By creating separate script files for each path"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-12-37",
+        "question": "How does Node.js handle incoming POST request payload data by default?",
+        "options": [
+          "It stores all data automatically in `req.body`",
+          "It receives the request body as a data stream in chunks",
+          "It parses JSON automatically before entering the request handler",
+          "It writes data to disk before calling `http.createServer()`"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-38",
+        "question": "Which event on the request object (`req`) is listened to for reading stream chunks of incoming data?",
+        "options": [
+          "req.on(\"readable\", ...)",
+          "req.on(\"data\", ...)",
+          "req.on(\"stream\", ...)",
+          "req.on(\"chunk\", ...)"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-39",
+        "question": "Which method is used to convert incoming JSON string chunks into a JavaScript object?",
+        "options": [
+          "JSON.stringify()",
+          "JSON.parse()",
+          "Object.fromJSON()",
+          "String.toObject()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-40",
+        "question": "In an API endpoint, what logic step typically occurs after parsing a new user's JSON data during signup?",
+        "options": [
+          "Check whether the email already exists in storage",
+          "Immediately clear the server array",
+          "Restart the Node.js process",
+          "Send a 404 status response"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-12-41",
+        "question": "What does `Array.prototype.find()` return when a matching element is found?",
+        "options": [
+          "A boolean value of `true`",
+          "An array containing all matching elements",
+          "The first element in the array that satisfies the condition",
+          "The index position of the element"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-12-42",
+        "question": "What does `Array.prototype.find()` return if no element matches the condition?",
+        "options": [
+          "`null`",
+          "`false`",
+          "`-1`",
+          "`undefined`"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-12-43",
+        "question": "What is the primary output of `Array.prototype.filter()`?",
+        "options": [
+          "The single first item matching the condition",
+          "A new array containing all elements that satisfy the condition",
+          "A boolean indicating if any element matches",
+          "The modified original array with deleted items"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-44",
+        "question": "How is `filter()` used to remove an item with a specific `id` from an array called `users`?",
+        "options": [
+          "users.filter((user) => user.id === id);",
+          "users = users.filter((user) => user.id !== id);",
+          "users.find((user) => user.id !== id);",
+          "users.delete((user) => user.id === id);"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-45",
+        "question": "What is the key functional difference between `find()` and `filter()`?",
+        "options": [
+          "`find()` returns a single matching element, while `filter()` returns a new array of matching elements",
+          "`find()` alters the original array, while `filter()` creates an object",
+          "`find()` only works on numbers, while `filter()` works on objects",
+          "`find()` is asynchronous, while `filter()` is synchronous"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-12-46",
+        "question": "When deleting data via an HTTP endpoint, which method is typically specified in the request check?",
+        "options": [
+          "POST",
+          "DELETE",
+          "PUT",
+          "GET"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-47",
+        "question": "How should unknown endpoints (routes that do not match defined conditions) be handled in a production API?",
+        "options": [
+          "By throwing an unhandled exception",
+          "By returning an appropriate status code like 404 Not Found",
+          "By redirecting to port 8080 automatically",
+          "By deleting the in-memory array"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-48",
+        "question": "What happens to data stored in a simple JavaScript array inside a Node.js server when the process restarts?",
+        "options": [
+          "Data is backed up to local storage",
+          "All data is lost because in-memory storage is volatile",
+          "Data is automatically saved to MongoDB",
+          "Data persists in the Node runtime cache"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-49",
+        "question": "What should be used in production backend applications instead of in-memory arrays for long-term data storage?",
+        "options": [
+          "Global JavaScript variables",
+          "Persistent database storage (such as MongoDB or SQL databases)",
+          "Temporary local text logs",
+          "HTTP header storage"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-12-50",
+        "question": "What is the general execution flow for a user signup request in the provided Node.js HTTP example?",
+        "options": [
+          "Send response -> Parse JSON body -> Create user -> Check email",
+          "Match route -> Read & parse request stream -> Validate/Check existing user -> Save to array -> Send response",
+          "Save to array -> Match route -> Send response -> Parse JSON body",
+          "Check email -> Send response -> Create user -> Match route"
+        ],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "sectionId": "13",
+    "sectionTitle": "Express.js Fundamentals",
+    "questions": [
+      {
+        "id": "quiz-13-01",
+        "question": "What is Express.js?",
+        "options": [
+          "A database engine for Node.js applications",
+          "A lightweight web framework for Node.js used to build web servers and APIs",
+          "A standalone programming language that replaces JavaScript",
+          "A frontend library used exclusively for building user interfaces"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-02",
+        "question": "Does Express.js replace Node.js?",
+        "options": [
+          "Yes, Express.js completely replaces the Node.js runtime",
+          "No, Express.js is a framework that runs on top of Node.js to simplify server development",
+          "Yes, but only for client-side web applications",
+          "No, Express.js is a module manager for standard browser JavaScript"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-03",
+        "question": "Which command initializes a new Node.js project creating a package.json file with defaults?",
+        "options": [
+          "npm start -y",
+          "npm init -y",
+          "npm install express",
+          "express --init"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-04",
+        "question": "Which command is used to install Express.js as a project dependency?",
+        "options": [
+          "npm init express",
+          "npm install express",
+          "npm get express",
+          "node install express"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-05",
+        "question": "What package.json configuration is required to use ES module `import express from \"express\";` syntax in Node.js?",
+        "options": [
+          "\"module\": true",
+          "\"type\": \"module\"",
+          "\"syntax\": \"es6\"",
+          "\"express\": \"import\""
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-06",
+        "question": "How is an Express application instance created after importing `express`?",
+        "options": [
+          "const app = new Express();",
+          "const app = express.create();",
+          "const app = express();",
+          "const app = express.listen();"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-13-07",
+        "question": "Which method on the `app` object starts the server and binds it to a specific port?",
+        "options": [
+          "app.start()",
+          "app.run()",
+          "app.listen()",
+          "app.connect()"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-13-08",
+        "question": "What are the primary parameters passed into an Express route handler callback function?",
+        "options": [
+          "req (incoming request) and res (outgoing response)",
+          "input and output",
+          "url and method",
+          "status and body"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-09",
+        "question": "Which method on the Express `app` object is used to handle GET HTTP requests?",
+        "options": [
+          "app.fetch()",
+          "app.get()",
+          "app.retrieve()",
+          "app.post()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-10",
+        "question": "Which response method in Express sends a JSON response while automatically setting appropriate headers?",
+        "options": [
+          "res.sendJSON()",
+          "res.end(JSON.stringify())",
+          "res.json()",
+          "res.writeJSON()"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-13-11",
+        "question": "Unlike native Node.js HTTP servers, what does Express's `res.json()` avoid needing to do manually?",
+        "options": [
+          "Opening database sockets",
+          "Calling `JSON.stringify()` manually",
+          "Listening on port 3000",
+          "Setting status codes manually"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-12",
+        "question": "What is middleware in Express.js?",
+        "options": [
+          "A database driver for connecting to MongoDB",
+          "A function that executes during the request-response cycle",
+          "A compiler that translates JavaScript to C++",
+          "A frontend routing library"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-13",
+        "question": "Which built-in Express middleware is used to parse incoming JSON request bodies?",
+        "options": [
+          "express.bodyParser()",
+          "express.json()",
+          "express.parse()",
+          "express.urlEncoded()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-14",
+        "question": "After `express.json()` middleware parses incoming JSON data, where is the resulting object accessible?",
+        "options": [
+          "req.params",
+          "req.query",
+          "req.body",
+          "res.body"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-13-15",
+        "question": "If a client sends `{\"email\": \"ahmed@example.com\"}` in a POST request parsed by `express.json()`, how do you access the email?",
+        "options": [
+          "req.params.email",
+          "req.body.email",
+          "req.url.email",
+          "res.body.email"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-16",
+        "question": "Which method sets the HTTP status code on an Express response before sending data?",
+        "options": [
+          "res.setCode()",
+          "res.status()",
+          "res.httpStatus()",
+          "res.state()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-17",
+        "question": "What does an HTTP status code of `201` signify?",
+        "options": [
+          "OK / Request Succeeded",
+          "Created (Resource successfully created)",
+          "Bad Request",
+          "Internal Server Error"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-18",
+        "question": "Why is storing and comparing plain-text passwords during login dangerous in real applications?",
+        "options": [
+          "Plain-text passwords increase memory usage",
+          "Plain-text passwords should never be stored; passwords must be securely hashed for safety",
+          "Express cannot read plain-text strings inside req.body",
+          "It prevents JSON.stringify from formatting responses properly"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-19",
+        "question": "How are route parameters specified in an Express route path?",
+        "options": [
+          "Using a question mark like `/users?id`",
+          "Using a colon prefix like `/users/:id`",
+          "Using curly braces like `/users/{id}`",
+          "Using brackets like `/users/[id]`"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-20",
+        "question": "Where are values captured from dynamic URL route parameters stored in the request object?",
+        "options": [
+          "req.body",
+          "req.params",
+          "req.query",
+          "req.url"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-21",
+        "question": "What data type are values in `req.params` by default?",
+        "options": [
+          "Number",
+          "Boolean",
+          "String",
+          "Object"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-13-22",
+        "question": "How should `req.params.id` be handled if strictly comparing it with a numeric ID?",
+        "options": [
+          "It must be converted to a number, e.g. using `Number(req.params.id)`",
+          "It must be stringified using `JSON.stringify(req.params.id)`",
+          "It must be wrapped in `express.json()`",
+          "It automatically casts to a number during strict comparison"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-23",
+        "question": "What is the key difference between `req.params` and `req.body`?",
+        "options": [
+          "`req.params` contains data sent inside the request body, while `req.body` captures values from dynamic URL segments",
+          "`req.params` captures dynamic values from the URL path, while `req.body` contains payload data sent in the request body",
+          "`req.params` is only used for GET requests, while `req.body` is used exclusively for DELETE requests",
+          "`req.params` contains HTTP headers, while `req.body` contains URL status codes"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-24",
+        "question": "Which JavaScript array method is suitable for deleting a targeted item from an array without mutating the original variable directly?",
+        "options": [
+          "users.find()",
+          "users.filter()",
+          "users.push()",
+          "users.join()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-25",
+        "question": "Which HTTP method is conventionally used to update an existing resource in Express?",
+        "options": [
+          "GET",
+          "POST",
+          "PUT",
+          "DELETE"
+        ],
+        "correctIndex": 2
+      },
+      {
+        "id": "quiz-13-26",
+        "question": "What does the JavaScript spread operator `...` do when combining objects like `{ ...user, ...req.body }`?",
+        "options": [
+          "It converts both objects into an array",
+          "Properties from `req.body` overwrite matching properties in `user` while preserving remaining properties",
+          "It deletes all matching properties from `user`",
+          "It creates a deep clone of the Express application instance"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-27",
+        "question": "If `const user = { id: 1, name: \"Ahmed\", age: 20 }` and `const updates = { name: \"Ali\" }`, what is `{ ...user, ...updates }`?",
+        "options": [
+          "{ id: 1, name: \"Ahmed\", age: 20, updates: \"Ali\" }",
+          "{ id: 1, name: \"Ali\", age: 20 }",
+          "{ name: \"Ali\" }",
+          "{ id: 1, name: \"Ahmed\" }"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-28",
+        "question": "Why does writing `const updatedUser = { ...foundedUser, ...req.body }` fail to update an in-memory array by itself?",
+        "options": [
+          "Because the spread operator is unsupported in Node.js",
+          "Because it only creates a new object in memory and does not replace the item inside the array",
+          "Because `req.body` is immutable",
+          "Because Express routes only allow read operations"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-29",
+        "question": "Which JavaScript array method finds the index position of a matching element?",
+        "options": [
+          "users.indexOf()",
+          "users.findIndex()",
+          "users.search()",
+          "users.locate()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-30",
+        "question": "What does `findIndex()` return if no element matches the specified criteria?",
+        "options": [
+          "null",
+          "undefined",
+          "0",
+          "-1"
+        ],
+        "correctIndex": 3
+      },
+      {
+        "id": "quiz-13-31",
+        "question": "How can an element inside an array `users` be updated after obtaining its position `index`?",
+        "options": [
+          "users[index] = { ...users[index], ...req.body };",
+          "users.update(index, req.body);",
+          "users.replace(index, req.body);",
+          "users.concat(index, req.body);"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-32",
+        "question": "Which Express method handles DELETE requests for a path like `/users/:id`?",
+        "options": [
+          "app.remove()",
+          "app.delete()",
+          "app.destroy()",
+          "app.drop()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-33",
+        "question": "Which method handles PATCH requests in Express?",
+        "options": [
+          "app.patch()",
+          "app.modify()",
+          "app.update()",
+          "app.put()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-34",
+        "question": "In native Node.js HTTP, creating a server uses `http.createServer()`. What is the equivalent initialization in Express?",
+        "options": [
+          "express.createServer()",
+          "express()",
+          "new ExpressServer()",
+          "http.express()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-35",
+        "question": "How does Express simplify checking HTTP methods and paths compared to native Node.js HTTP?",
+        "options": [
+          "Native Node requires manual `if` checks on `req.url` and `req.method`; Express provides dedicated methods like `app.get()` and `app.post()`",
+          "Express removes the need for HTTP methods entirely",
+          "Native Node uses middleware while Express requires manual stream parsing",
+          "Express executes routing on the client side"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-36",
+        "question": "What happens when `res.status(404).json({ message: \"user not found\" })` is called?",
+        "options": [
+          "It sets the status code to 404 and sends the JSON error message as the response",
+          "It crashes the Express server",
+          "It redirects the client to the `/404` route automatically",
+          "It parses the request body as 404 bytes of JSON"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-37",
+        "question": "If multiple users exist in the `users` array, how can you check whether a registering email is already present?",
+        "options": [
+          "const exists = users.find((user) => user.email === req.body.email);",
+          "const exists = users.includes(req.body.email);",
+          "const exists = users.filter((user) => user.email);",
+          "const exists = users.map((user) => user.email);"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-38",
+        "question": "What is the typical sequence of processing inside an Express route handler receiving JSON data?",
+        "options": [
+          "Send response -> Parse body -> Perform operation -> Validate input",
+          "Parse body (middleware) -> Read `req.body`/`req.params` -> Perform business logic -> Send response via `res.json()`",
+          "Perform operation -> Listen on port -> Read request data -> Send response",
+          "Send status -> Parse stream -> Run `app.listen()` -> Filter data"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-39",
+        "question": "What parameter in `app.listen(3000, callback)` specifies the network port?",
+        "options": [
+          "The first argument (`3000`)",
+          "The callback argument",
+          "The `req.params.port` property",
+          "The package.json script configuration"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-40",
+        "question": "In the endpoint `app.post(\"/users/register\", express.json(), (req, res) => {})`, what role does `express.json()` play?",
+        "options": [
+          "Route handler",
+          "Middleware function",
+          "Response formatter",
+          "Server listener"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-41",
+        "question": "What response message is returned in the example login code when a user's email is found but the password does not match?",
+        "options": [
+          "\"user not found, please register\"",
+          "\"password is incorrect\"",
+          "\"login successfully\"",
+          "\"user already exists\""
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-42",
+        "question": "What response message is returned in the example login code when the email does not exist in the array?",
+        "options": [
+          "\"password is incorrect\"",
+          "\"user not found, please register\"",
+          "\"login successfully\"",
+          "\"user deleted successfully\""
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-43",
+        "question": "What is the result of passing non-string values directly to `res.send()` versus using `res.json()`?",
+        "options": [
+          "`res.json()` explicitly formats data as JSON and sets the `Content-Type: application/json` header",
+          "`res.send()` can only handle raw binary buffers",
+          "`res.json()` converts JavaScript objects into HTML tags",
+          "`res.send()` automatically encrypts data"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-44",
+        "question": "Given the endpoint `app.put(\"/users/:id\", ...)` and request URL `PUT /users/5`, what is `req.params`?",
+        "options": [
+          "`{ id: 5 }` (as a number)",
+          "`{ id: \"5\" }` (as a string)",
+          "`[\"5\"]`",
+          "\"5\""
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-45",
+        "question": "Which statement correctly describes how Express handles request body parsing compared to native Node.js HTTP?",
+        "options": [
+          "Native Node requires reading stream chunks with `req.on('data')`; Express simplifies this via middleware like `express.json()`",
+          "Native Node parses JSON automatically; Express requires manual stream reading",
+          "Neither Node nor Express can parse JSON bodies",
+          "Express requires third-party C++ plugins to read request bodies"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-46",
+        "question": "What is the primary purpose of building web applications with a framework like Express.js?",
+        "options": [
+          "To increase low-level memory control over the CPU",
+          "To streamline and simplify backend server logic, routing, request parsing, and response creation",
+          "To replace client-side web browsers",
+          "To convert JavaScript applications into desktop binaries"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-47",
+        "question": "If `req.params.id` is `\"10\"`, what does `Number(req.params.id) === 10` evaluate to?",
+        "options": [
+          "true",
+          "false",
+          "undefined",
+          "NaN"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-48",
+        "question": "In Express, what method handles HTTP POST requests?",
+        "options": [
+          "app.post()",
+          "app.create()",
+          "app.add()",
+          "app.push()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-13-49",
+        "question": "If `express.json()` middleware is NOT included on a POST request route expecting JSON, what will `req.body` be by default?",
+        "options": [
+          "Fully parsed JavaScript object",
+          "undefined or empty",
+          "Automatically converted to an array",
+          "A SQL database query"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-13-50",
+        "question": "What is the default address format for testing an Express server running locally on port 3000?",
+        "options": [
+          "http://localhost:3000",
+          "ftp://localhost:3000",
+          "ws://express:3000",
+          "http://node.server:3000"
+        ],
+        "correctIndex": 0
+      }
+    ]
+  },
+  {
+    "sectionId": "14",
+    "sectionTitle": "MongoDB & Mongoose Integration",
+    "questions": [
+      {
+        "id": "quiz-14-01",
+        "question": "By default, how does JavaScript execute code on its main thread?",
+        "options": [
+          "Multi-threaded and parallel",
+          "Single-threaded and synchronous",
+          "Asynchronous and non-blocking",
+          "Compiled and multi-process"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-02",
+        "question": "Why does JavaScript rely on asynchronous execution for operations like network calls or database queries?",
+        "options": [
+          "To allow V8 to stop executing JavaScript completely",
+          "To handle time-consuming tasks without blocking the main thread",
+          "To force execution of code in reverse order",
+          "To disable the browser or Node.js event loop"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-03",
+        "question": "What is the primary characteristic of synchronous execution?",
+        "options": [
+          "It offloads tasks to a background thread pool",
+          "It blocks execution of subsequent code until the current task completes",
+          "It processes results exclusively through Promises",
+          "It executes multiple lines of code at the exact same millisecond"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-04",
+        "question": "Which C library does Node.js use to handle its event loop, thread pool, and asynchronous non-blocking I/O?",
+        "options": [
+          "V8 Engine",
+          "Libuv",
+          "Boost",
+          "OpenSSL"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-05",
+        "question": "What role does the V8 engine play in the Node.js architecture?",
+        "options": [
+          "Handling database connection pooling",
+          "Executing JavaScript code via the Call Stack",
+          "Providing OS-level file system threads directly",
+          "Managing HTTP response headers"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-06",
+        "question": "Which tasks are typically offloaded to the Libuv thread pool in Node.js?",
+        "options": [
+          "Basic variable assignments",
+          "File I/O, cryptography, and asynchronous database calls",
+          "Synchronous array loops",
+          "Evaluating `if/else` statements"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-07",
+        "question": "What distinguishes encryption from hashing regarding data reversibility?",
+        "options": [
+          "Encryption is irreversible, while hashing is reversible with a key",
+          "Encryption is reversible using a secret/private key, while hashing is strictly one-way and irreversible",
+          "Both encryption and hashing are freely reversible without keys",
+          "Neither encryption nor hashing involves cryptographic algorithms"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-08",
+        "question": "Why should user passwords NEVER be stored as plaintext or using reversible encryption?",
+        "options": [
+          "Plaintext passwords use too much disk space",
+          "If the database is compromised, plaintext or encrypted passwords can be read or decrypted; passwords must be hashed non-reversibly",
+          "Node.js cannot send encrypted strings over HTTP",
+          "MongoDB rejects non-hashed strings inside documents"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-09",
+        "question": "What is the purpose of adding a 'Salt' before hashing a password?",
+        "options": [
+          "To compress the password size before saving",
+          "To add random bytes to the input so identical passwords generate unique hash signatures",
+          "To convert the hash back into plaintext when requested",
+          "To speed up the database query performance"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-10",
+        "question": "What does the 'Cost Factor' (or salt rounds) represent in password hashing functions like bcrypt?",
+        "options": [
+          "The financial cost of storing the hash in MongoDB",
+          "The amount of computational time and CPU work required to calculate the hash",
+          "The number of users that can share the same password",
+          "The maximum length of the output string in bytes"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-11",
+        "question": "How do higher cost factors (e.g. 10 or 12 rounds) improve password security?",
+        "options": [
+          "By making hashes reversible for administrators",
+          "By slowing down brute-force and dictionary attacks",
+          "By allowing passwords to be stored as JSON objects",
+          "By bypassing the Libuv thread pool"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-12",
+        "question": "What does the acronym ODM stand for in database development?",
+        "options": [
+          "Object Document Mapper",
+          "Operational Data Model",
+          "Online Database Manager",
+          "Object Delivery Method"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-13",
+        "question": "What is the primary role of an Object Document Mapper (ODM) like Mongoose?",
+        "options": [
+          "To replace Node.js with a database server",
+          "To translate between JavaScript code objects and MongoDB BSON document representations",
+          "To serve static HTML pages directly to the browser",
+          "To encrypt HTTP request headers automatically"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-14",
+        "question": "In what format does MongoDB store data internally?",
+        "options": [
+          "Plain Text SQL Tables",
+          "BSON (Binary JSON)",
+          "XML Documents",
+          "CSV Rows"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-15",
+        "question": "Where does Mongoose sit in the architectural stack between Node.js and MongoDB?",
+        "options": [
+          "Node.js Application -> Mongoose (ODM) -> Native MongoDB Driver -> MongoDB Server",
+          "MongoDB Server -> Mongoose (ODM) -> V8 Engine -> Express",
+          "Mongoose -> Libuv -> BSON -> SQL Driver",
+          "Express -> Native MongoDB Driver -> Mongoose -> Hardware"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-16",
+        "question": "Which Mongoose method is used to connect to a MongoDB database cluster?",
+        "options": [
+          "mongoose.start()",
+          "mongoose.connect()",
+          "mongoose.open()",
+          "mongoose.init()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-17",
+        "question": "Given `mongoose.connect(\"mongodb://localhost:27017/ITIG3\")`, what does `ITIG3` represent?",
+        "options": [
+          "The name of the collection",
+          "The database name",
+          "The user credentials username",
+          "The host server IP address"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-18",
+        "question": "What does a Mongoose Schema define?",
+        "options": [
+          "The network IP address of the database server",
+          "The shape, fields, data types, and validation rules for documents in a collection",
+          "The port number for the Express listener",
+          "The number of salt rounds for encryption keys"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-19",
+        "question": "How do you instantiate a new Mongoose schema?",
+        "options": [
+          "const schema = mongoose.createSchema({})",
+          "const schema = new mongoose.Schema({})",
+          "const schema = mongoose.makeSchema({})",
+          "const schema = new Schema.object({})"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-20",
+        "question": "What is a Mongoose Model?",
+        "options": [
+          "A frontend UI component",
+          "A constructor wrapper compiled from a schema that provides the querying and mutating API for a MongoDB collection",
+          "A low-level C++ binding inside Libuv",
+          "A raw JSON file on the operating system"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-21",
+        "question": "If you define a model using `mongoose.model(\"User\", userSchema)`, how does Mongoose name the targeted collection in MongoDB by default?",
+        "options": [
+          "\"User\"",
+          "\"users\"",
+          "\"user_schema\"",
+          "\"UserCollection\""
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-22",
+        "question": "Which Mongoose model method retrieves all documents matching a query (or all documents if empty)?",
+        "options": [
+          "userModel.getAll()",
+          "userModel.find()",
+          "userModel.fetch()",
+          "userModel.select()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-23",
+        "question": "Why must query methods like `userModel.find()` be used with `await` (or Promises) inside Express route handlers?",
+        "options": [
+          "Because database operations are asynchronous I/O tasks",
+          "Because `find()` is a synchronous CPU calculation",
+          "To force Express to restart the server process",
+          "Because Mongoose models are written in synchronous C"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-24",
+        "question": "Which Mongoose model method finds a single document that matches specific search criteria?",
+        "options": [
+          "userModel.findOne()",
+          "userModel.searchOne()",
+          "userModel.getSingle()",
+          "userModel.filterOne()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-25",
+        "question": "What does `userModel.findOne({ email: \"test@example.com\" })` return if no user matches?",
+        "options": [
+          "`false`",
+          "`null`",
+          "`undefined`",
+          "`-1`"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-26",
+        "question": "Which Mongoose method creates and saves one or more new documents to the database?",
+        "options": [
+          "userModel.create()",
+          "userModel.make()",
+          "userModel.append()",
+          "userModel.put()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-27",
+        "question": "Why is `userModel.create(newUser)` preferred over calling `userModel.insertMany(newUser)` for a single object payload?",
+        "options": [
+          "`insertMany` expects an array of documents and is non-standard for a single object, whereas `create` handles single objects cleanly",
+          "`insertMany` converts data to XML",
+          "`create` is synchronous while `insertMany` blocks the V8 engine",
+          "`insertMany` deletes existing records before inserting"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-28",
+        "question": "In the POST handler `const exists = await userModel.findOne({ email: newUser.email });`, what is the purpose of checking `exists`?",
+        "options": [
+          "To count total users in the database",
+          "To verify if a user with that email already exists and prevent duplicate registrations",
+          "To validate the password length",
+          "To update the user's age"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-29",
+        "question": "How do you define a route handler in Express as an asynchronous function to use `await`?",
+        "options": [
+          "app.get(\"/users\", async (req, res) => { ... })",
+          "app.get(\"/users\", sync (req, res) => { ... })",
+          "app.get(\"/users\", (req, res) => async { ... })",
+          "app.asyncGet(\"/users\", (req, res) => { ... })"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-30",
+        "question": "What does `mongoose.connect().then().catch()` use to handle the connection result?",
+        "options": [
+          "Callbacks only",
+          "Promises",
+          "Generators",
+          "Event Emitters"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-31",
+        "question": "Which component of Node.js converts JavaScript code into machine code?",
+        "options": [
+          "Libuv",
+          "V8 Engine",
+          "npm",
+          "Express"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-32",
+        "question": "If two users choose the exact same password, e.g., '123456', how does salting affect their stored password hashes?",
+        "options": [
+          "Their hashes will be identical",
+          "Their hashes will be completely different because unique salts were added to each",
+          "Both hashes will be reverted to plaintext automatically",
+          "Salting prevents either hash from being saved in MongoDB"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-33",
+        "question": "What is a 'Rainbow Table' in the context of security?",
+        "options": [
+          "A dynamic database schema inside MongoDB",
+          "A precomputed table of reverse password hashes used to crack un-salted password hashes",
+          "A table listing HTTP status codes",
+          "An Express routing middleware component"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-34",
+        "question": "Which field types were specified in the sample userSchema (`name`, `age`, `email`)?",
+        "options": [
+          "`name: String, age: Number, email: String`",
+          "`name: Text, age: Integer, email: Varchar`",
+          "`name: Object, age: Float, email: Array`",
+          "`name: Boolean, age: String, email: String`"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-35",
+        "question": "What happens if `mongoose.connect()` fails to connect to the MongoDB instance?",
+        "options": [
+          "It triggers the `.catch()` block execution",
+          "It ignores the error and proceeds silently",
+          "It converts MongoDB to a SQL database",
+          "It deletes package.json automatically"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-36",
+        "question": "In the refactored express code, which middleware parses incoming JSON data for the POST `/users` route?",
+        "options": [
+          "mongoose.json()",
+          "express.json()",
+          "libuv.parse()",
+          "v8.json()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-37",
+        "question": "What is the result of executing `res.json({ message: \"all users\", users })` in Express?",
+        "options": [
+          "Sends an HTML page displaying users",
+          "Sends a JSON response with status 200 containing a message and the users payload",
+          "Closes the server connection permanently",
+          "Writes the users directly to a local file system text file"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-38",
+        "question": "Which of the following describes HTTPS communication?",
+        "options": [
+          "Unencrypted plaintext data transfer",
+          "Data encrypted in transit using cryptographic protocols",
+          "Non-reversible password hashing at the router level",
+          "Direct connection to MongoDB without an application server"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-39",
+        "question": "What happens to the V8 call stack when an asynchronous I/O task is initiated?",
+        "options": [
+          "It freezes completely until the I/O task finishes",
+          "The asynchronous task is offloaded to Libuv, allowing the call stack to continue executing synchronous JS code",
+          "The call stack crashes",
+          "It converts the synchronous JS code into a database table"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-40",
+        "question": "Can an encrypted ciphertext be converted back into its original plaintext?",
+        "options": [
+          "No, encryption is strictly a one-way irreversible algorithm",
+          "Yes, by using decryption with the appropriate key",
+          "Only if the cost factor is set to 0",
+          "Only if stored inside a MongoDB collection"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-41",
+        "question": "Which data structure flow best represents Mongoose data workflow?",
+        "options": [
+          "Define Schema -> Compile Model -> Execute Query Operations",
+          "Execute Query Operations -> Define Schema -> Compile Model",
+          "Compile Model -> Define Schema -> Connect to Express",
+          "Connect to Express -> Execute Query Operations -> Define Schema"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-42",
+        "question": "In the model creation statement `const userModel = mongoose.model(\"User\", userSchema);`, what is the second argument?",
+        "options": [
+          "The connection URI string",
+          "The schema object instance defining document fields",
+          "The database collection name override",
+          "An array of middleware functions"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-43",
+        "question": "What type of database is MongoDB classified as?",
+        "options": [
+          "Relational SQL Database",
+          "Document-Oriented NoSQL Database",
+          "Graph Database only",
+          "Flat-file CSV Database"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-44",
+        "question": "What is the default port for a local MongoDB server instance shown in `mongodb://localhost:27017`?",
+        "options": [
+          "3000",
+          "27017",
+          "8080",
+          "5432"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-45",
+        "question": "If `userModel.findOne({ email: newUser.email })` returns an existing user document object, what action does the endpoint take?",
+        "options": [
+          "It creates a duplicate user record",
+          "It returns a JSON response stating `\"user already exists\"` and exits early",
+          "It deletes the existing user record",
+          "It resets the MongoDB server"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-46",
+        "question": "Why is storing plain MD5 or SHA1 hashes without salting considered insecure for passwords today?",
+        "options": [
+          "Because modern hardware can compute billions of un-salted MD5/SHA1 hashes per second using precomputed rainbow tables",
+          "Because MD5 and SHA1 hashes take up too much storage space",
+          "Because Node.js does not support MD5 algorithms",
+          "Because Mongoose automatically deletes un-salted hashes"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-47",
+        "question": "Which statement about the event loop in Node.js is true?",
+        "options": [
+          "It runs on multiple OS threads simultaneously",
+          "It continuously checks for completed asynchronous callbacks and coordinates execution on the main JS thread",
+          "It compiles JavaScript to C++",
+          "It is built exclusively for SQL relational queries"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-48",
+        "question": "In Mongoose, how would you asynchronously save a new document instance created with `new userModel(newUser)`?",
+        "options": [
+          "await user.save()",
+          "user.push()",
+          "user.insert()",
+          "user.sync()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-14-49",
+        "question": "What does `await userModel.find()` return if the target collection contains three documents?",
+        "options": [
+          "A single object representing the first document",
+          "An array containing all three document objects",
+          "The number `3`",
+          "A boolean `true`"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-14-50",
+        "question": "Which of the following summary points regarding Node.js and Mongoose is correct?",
+        "options": [
+          "Node blocks the main thread during database I/O calls",
+          "Mongoose schemas provide structure and validation rules for MongoDB documents",
+          "Passwords should be encrypted with public keys rather than hashed",
+          "`findOne()` always creates a new document in MongoDB"
+        ],
+        "correctIndex": 1
+      }
+    ]
   }
 ]

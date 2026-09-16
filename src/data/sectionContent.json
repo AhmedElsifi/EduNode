@@ -934,5 +934,197 @@
         "id": "aggregation"
       }
     ]
+  },
+  {
+    "sectionId": "12",
+    "title": "HTTP & Node.js Fundamentals",
+    "readTime": "20 min read",
+    "file": "../content/sections/12-http-nodejs-fundamentals.md",
+    "tableOfContents": [
+      {
+        "label": "HTTP and Communication",
+        "id": "http-and-communication"
+      },
+      {
+        "label": "HTTP Request Methods",
+        "id": "http-request-methods"
+      },
+      {
+        "label": "HTTP Status Codes",
+        "id": "http-status-codes"
+      },
+      {
+        "label": "What is Node.js?",
+        "id": "what-is-node.js?"
+      },
+      {
+        "label": "Node.js Modules",
+        "id": "node.js-modules"
+      },
+      {
+        "label": "Creating an HTTP Server",
+        "id": "creating-an-http-server"
+      },
+      {
+        "label": "Sending JSON Responses",
+        "id": "sending-json-responses"
+      },
+      {
+        "label": "Routing with Node.js HTTP",
+        "id": "routing-with-node.js-http"
+      },
+      {
+        "label": "Handling GET Requests",
+        "id": "handling-get-requests"
+      },
+      {
+        "label": "Handling POST Request Data",
+        "id": "handling-post-request-data"
+      },
+      {
+        "label": "Searching Arrays with find()",
+        "id": "searching-arrays-with-find()"
+      },
+      {
+        "label": "Deleting Data with filter()",
+        "id": "deleting-data-with-filter()"
+      },
+      {
+        "label": "Handling DELETE Request Data",
+        "id": "handling-delete-request-data"
+      },
+      {
+        "label": "Handling Unknown Endpoints",
+        "id": "handling-unknown-endpoints"
+      },
+      {
+        "label": "Important Request and Response Concepts",
+        "id": "important-request/response-concepts"
+      },
+      {
+        "label": "Summary",
+        "id": "summary"
+      }
+    ]
+  },
+  {
+    "sectionId": "13",
+    "title": "Express.js Fundamentals",
+    "readTime": "18 min read",
+    "file": "../content/sections/13-expressjs-fundamentals.md",
+    "tableOfContents": [
+      {
+        "label": "What Is Express.js?",
+        "id": "what-is-express.js?"
+      },
+      {
+        "label": "Installing Express.js",
+        "id": "installing-express.js"
+      },
+      {
+        "label": "Creating an Express Application",
+        "id": "creating-an-express-application"
+      },
+      {
+        "label": "Starting the Server",
+        "id": "starting-the-server"
+      },
+      {
+        "label": "Defining Routes",
+        "id": "defining-routes"
+      },
+      {
+        "label": "Sending JSON Responses",
+        "id": "sending-json-responses"
+      },
+      {
+        "label": "Express Middleware",
+        "id": "express-middleware"
+      },
+      {
+        "label": "Getting All Users",
+        "id": "getting-all-users"
+      },
+      {
+        "label": "Registering a User",
+        "id": "registering-a-user"
+      },
+      {
+        "label": "User Login",
+        "id": "user-login"
+      },
+      {
+        "label": "Route Parameters",
+        "id": "route-parameters"
+      },
+      {
+        "label": "Deleting a User",
+        "id": "deleting-a-user"
+      },
+      {
+        "label": "Updating a User",
+        "id": "updating-a-user"
+      },
+      {
+        "label": "Updating the Array Element",
+        "id": "updating-the-array-element"
+      },
+      {
+        "label": "Express Request and Response Flow",
+        "id": "express-request-and-response-flow"
+      },
+      {
+        "label": "Express vs Native Node.js HTTP",
+        "id": "express-vs-native-node.js-http"
+      },
+      {
+        "label": "Summary",
+        "id": "summary"
+      }
+    ]
+  },
+  {
+    "sectionId": "14",
+    "title": "MongoDB & Mongoose Integration",
+    "readTime": "15 min read",
+    "file": "../content/sections/14-mongodb-mongoose-integration.md",
+    "tableOfContents": [
+      {
+        "label": "Synchronous vs Asynchronous JavaScript",
+        "id": "synchronous-vs-asynchronous-javascript"
+      },
+      {
+        "label": "Node.js Architecture & Libuv",
+        "id": "node.js-architecture-&-libuv"
+      },
+      {
+        "label": "Security Fundamentals: Encryption vs Decryption vs Hashing",
+        "id": "security-fundamentals:-encryption-vs-decryption-vs-hashing"
+      },
+      {
+        "label": "What is an ODM? (Object Document Mapper)",
+        "id": "what-is-an-odm?-(object-document-mapper)"
+      },
+      {
+        "label": "Connecting Mongoose to MongoDB",
+        "id": "connecting-mongoose-to-mongodb"
+      },
+      {
+        "label": "Defining Schemas and Models",
+        "id": "defining-schemas-and-models"
+      },
+      {
+        "label": "Implementing Express Endpoints with Mongoose",
+        "id": "implementing-express-endpoints-with-mongoose"
+      },
+      {
+        "label": "Code Summary & Refactored Reference",
+        "id": "code-summary-&-refactored-reference"
+      },
+      {
+        "label": "Summary",
+        "id": "summary"
+      }
+    ]
   }
 ]

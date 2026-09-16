@@ -98,5 +98,37 @@
         "solution": ""
       }
     ]
+  },
+  {
+    "sectionId": "12",
+    "sectionTitle": "Node.js HTTP User Management API",
+    "tasks": [
+      {
+        "id": "node-10-01",
+        "number": 1,
+        "title": "Build a User Management System with Pure Node.js HTTP Module",
+        "difficulty": "Medium",
+        "category": "ITI",
+        "description": "## Node.js Core HTTP Module Assignments\n\nBuild a lightweight RESTful API for a User Management System using Node.js's built-in `http` module without using any external frameworks like Express.\n\n## Initial Data Setup\n\nCreate an in-memory `users` array containing 5 initial user objects. Each user should have the following structure:\n\n- `id`: Number\n- `username`: String\n- `email`: String\n- `password`: String\n- `age`: Number\n\n## HTTP Server Endpoints\n\nCreate an HTTP server listening on port `3000` that handles the following JSON API endpoints:\n\n### 1. Get All Users\n- **Route:** `GET /users`\n- **Behavior:** Set response `Content-Type` header to `application/json` and return the complete list of users.\n\n### 2. User Signup\n- **Route:** `POST /users/signup`\n- **Behavior:** \n  - Parse the incoming request body JSON.\n  - Check if a user with the given email already exists.\n  - If the user exists, return a JSON response with `{ \"message\": \"User already exists\" }`.\n  - If the user does not exist, auto-generate a unique `id` (incremented from the maximum existing ID), push the new user object into the `users` array, and return the updated array as JSON.\n\n### 3. User Login\n- **Route:** `POST /users/login`\n- **Behavior:** \n  - Parse the incoming request body JSON containing `email` and `password`.\n  - If no user matches the email, set status code to `404` and return `{ \"message\": \"User doesn't exist\" }`.\n  - If the password does not match, set status code to `401` and return `{ \"message\": \"Wrong password\" }`.\n  - If credentials are valid, return `{ \"message\": \"Login successful\", \"user\": userObject }`.\n\n### 4. Update User\n- **Route:** `PATCH /users/update`\n- **Behavior:** \n  - Parse the request body containing the target user's `id` and updated fields.\n  - If the user ID is not found, set status code to `404` and return `{ \"message\": \"User doesn't exist\" }`.\n  - Update the existing user object while preserving unmodified fields, update the array, and return the updated user object as JSON.\n\n### 5. Delete User\n- **Route:** `DELETE /users/delete`\n- **Behavior:** \n  - Parse the request body containing the target user's `id`.\n  - If the user ID is not found, set status code to `404` and return `{ \"message\": \"User doesn't exist\" }`.\n  - Remove the user from the `users` array and return the updated `users` array as JSON.",
+        "hint": "Remember that req in pure Node.js is a readable stream, so you must collect data chunks inside req.on('data') and parse the accumulated body in req.on('end'). Don't forget to set response headers and proper HTTP status codes.",
+        "solution": ""
+      }
+    ]
+  },
+  {
+    "sectionId": "13",
+    "sectionTitle": "Express.js Routing and User APIs",
+    "tasks": [
+      {
+        "id": "express-11-01",
+        "number": 1,
+        "title": "Build a User API using Express.js Framework",
+        "difficulty": "Medium",
+        "category": "ITI",
+        "description": "## Express.js Fundamentals Assignment\n\nRefactor and rebuild a RESTful API for managing user accounts using the Express.js framework. Utilize Express middlewares, dynamic routing parameters, and standard HTTP response status codes.\n\n## Initial Setup\n\nSet up an Express server running on port `3000` with an in-memory `users` array containing 4 initial user records. Each user should contain:\n\n- `id`: Number\n- `email`: String\n- `password`: String\n- `age`: Number\n\n## API Endpoints\n\nImplement the following HTTP routes using Express:\n\n### 1. Base Route\n- **Route:** `GET /`\n- **Behavior:** Respond with a plain text welcome message: `\"Hello World!\"`.\n\n### 2. Fetch All Users\n- **Route:** `GET /users`\n- **Behavior:** Return a JSON object with a message `\"all users data\"` and the full list of `users`.\n\n### 3. User Registration\n- **Route:** `POST /users/register`\n- **Middleware:** `express.json()`\n- **Behavior:**\n  - Check if the provided `email` in `req.body` already exists in the `users` array.\n  - If it exists, return `{ message: \"user Already exists, please login\", user: existingUser }`.\n  - If it does not exist, assign a auto-incremented `id` (`lastUser.id + 1`), append the new user to `users`, and respond with status code `201` and payload `{ message: \"registered successfully\", user: newUser }`.\n\n### 4. User Login\n- **Route:** `POST /users/login`\n- **Middleware:** `express.json()`\n- **Behavior:**\n  - Search for a user with the matching `email` from `req.body`.\n  - If the user does not exist, return `{ message: \"user was not found, please register\" }`.\n  - If found but the password does not match, return `{ message: \"password is incorrect, try again!\" }`.\n  - If credentials match, return `{ message: \"login successfully\", user: foundUser }`.\n\n### 5. Update User by ID\n- **Route:** `PUT /users/:id`\n- **Middleware:** `express.json()`\n- **Behavior:**\n  - Parse the user `id` from path parameter `req.params.id`.\n  - Find the index of the corresponding user.\n  - If not found, return status code `404` with `{ message: \"User not found\" }`.\n  - Update the user object by merging existing data with `req.body`, save changes to the array, and return `{ message: \"User updated successfully\", user: updatedUser }`.\n\n### 6. Delete User by ID\n- **Route:** `DELETE /users/:id`\n- **Middleware:** `express.json()`\n- **Behavior:**\n  - Parse the target user `id` from path parameter `req.params.id`.\n  - If the user is not found, return `{ message: \"can't find a user with this id\", users }`.\n  - Filter out the targeted user from the array and return `{ message: \"user deleted successfully\", users }`.",
+        "hint": "Use express.json() to parse incoming JSON request bodies effortlessly. Pay attention to accessing dynamic path variables via req.params and parsing string IDs to numbers using parseInt().",
+        "solution": ""
+      }
+    ]
   }
 ]
