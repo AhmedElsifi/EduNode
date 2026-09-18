@@ -1126,5 +1126,113 @@
         "id": "summary"
       }
     ]
+  },
+  {
+    "sectionId": "15",
+    "title": "Authentication, Authorization & Mongoose Relationships",
+    "readTime": "45 min read",
+    "file": "../content/sections/15-auth-mongoose-relationships.md",
+    "tableOfContents": [
+      {
+        "label": "Introduction",
+        "id": "introduction"
+      },
+      {
+        "label": "Project Structure",
+        "id": "project-structure"
+      },
+      {
+        "label": "MongoDB Connection",
+        "id": "mongodb-connection"
+      },
+      {
+        "label": "Creating Mongoose Schemas",
+        "id": "creating-mongoose-schemas"
+      },
+      {
+        "label": "Schema Options",
+        "id": "schema-options"
+      },
+      {
+        "label": "User Model",
+        "id": "user-model"
+      },
+      {
+        "label": "Note Model",
+        "id": "note-model"
+      },
+      {
+        "label": "Mongoose Relationships",
+        "id": "mongoose-relationships"
+      },
+      {
+        "label": "populate()",
+        "id": "populate()"
+      },
+      {
+        "label": "CRUD Operations with Mongoose",
+        "id": "crud-operations-with-mongoose"
+      },
+      {
+        "label": "Password Hashing with bcrypt",
+        "id": "password-hashing-with-bcrypt"
+      },
+      {
+        "label": "User Registration",
+        "id": "user-registration"
+      },
+      {
+        "label": "User Login",
+        "id": "user-login"
+      },
+      {
+        "label": "JSON Web Tokens (JWT)",
+        "id": "json-web-tokens-(jwt)"
+      },
+      {
+        "label": "Creating Tokens",
+        "id": "creating-tokens"
+      },
+      {
+        "label": "Verifying Tokens",
+        "id": "verifying-tokens"
+      },
+      {
+        "label": "Authentication Middleware",
+        "id": "authentication-middleware"
+      },
+      {
+        "label": "Custom Middleware",
+        "id": "custom-middleware"
+      },
+      {
+        "label": "Route Protection",
+        "id": "route-protection"
+      },
+      {
+        "label": "Request Lifecycle and next()",
+        "id": "request-lifecycle-and-next()"
+      },
+      {
+        "label": "Checking Resource Existence",
+        "id": "checking-resource-existence"
+      },
+      {
+        "label": "User Routes",
+        "id": "user-routes"
+      },
+      {
+        "label": "Note Routes",
+        "id": "note-routes"
+      },
+      {
+        "label": "Building a Notes API",
+        "id": "building-a-notes-api"
+      },
+      {
+        "label": "Summary",
+        "id": "summary"
+      }
+    ]
   }
 ]

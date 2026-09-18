@@ -6951,5 +6951,561 @@
         "correctIndex": 1
       }
     ]
+  },
+  {
+    "sectionId": "15",
+    "sectionTitle": "Authentication, Authorization & Mongoose Relationships",
+    "questions": [
+      {
+        "id": "quiz-15-01",
+        "question": "What is the primary benefit of organizing an Express application into modular layers (such as db, middlewares, and modules)?",
+        "options": [
+          "It speeds up V8 execution time automatically",
+          "It makes the codebase easier to maintain, test, and scale as the project grows",
+          "It removes the necessity of using npm or package.json",
+          "It enables client-side rendering inside Node.js"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-02",
+        "question": "In the modular project structure shown, what is the role of the controllers folder?",
+        "options": [
+          "Defining network ports and Express listener options",
+          "Handling core business logic and interacting with database models",
+          "Configuring HTTP status code constants",
+          "Parsing raw CSS and HTML templates"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-03",
+        "question": "What is the purpose of route files in an Express application architecture?",
+        "options": [
+          "To execute database migrations",
+          "To define API endpoints and map incoming requests to controller functions",
+          "To hash passwords using bcrypt",
+          "To manage environment variables"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-04",
+        "question": "What is the responsibility of the application entry point file (e.g., index.js)?",
+        "options": [
+          "Defining Mongoose schema validations only",
+          "Connecting to MongoDB, registering routes, and starting the Express server",
+          "Compiling frontend React components",
+          "Storing private RSA keys for HTTPS"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-05",
+        "question": "What does `mongoose.connect()` return?",
+        "options": [
+          "A callback function",
+          "A Promise",
+          "An RxJS Observable",
+          "A synchronous boolean value"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-06",
+        "question": "Which schema option adds `createdAt` and `updatedAt` fields to documents automatically?",
+        "options": [
+          "{ timestamps: true }",
+          "{ timeTrack: true }",
+          "{ versionKey: true }",
+          "{ dates: true }"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-07",
+        "question": "Setting `{ versionKey: false }` in a Mongoose schema removes which default document property?",
+        "options": [
+          "_id",
+          "__v",
+          "createdAt",
+          "updatedAt"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-08",
+        "question": "Which Mongoose field validation property prevents duplicate values across a collection?",
+        "options": [
+          "required: true",
+          "unique: true",
+          "default: true",
+          "enum: true"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-09",
+        "question": "How do you restrict a string field's value to a specific set of allowed strings (e.g., 'admin' or 'user') in Mongoose?",
+        "options": [
+          "using the `match` array option",
+          "using the `enum` schema option",
+          "using the `validate` regex default",
+          "using the `type: Array` property"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-10",
+        "question": "How is a relationship created in a Mongoose schema to reference another document by its ID?",
+        "options": [
+          "createdBy: { type: String, join: \"User\" }",
+          "createdBy: { type: mongoose.Types.ObjectId, ref: \"User\" }",
+          "createdBy: { type: Array, model: \"User\" }",
+          "createdBy: { type: Number, foreignKey: true }"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-11",
+        "question": "In the relationship property `{ type: mongoose.Types.ObjectId, ref: \"User\" }`, what does `ref: \"User\"` tell Mongoose?",
+        "options": [
+          "The file name of the router module",
+          "The name of the target Mongoose model to populate",
+          "The collection index key for faster searching",
+          "The password hashing secret key"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-12",
+        "question": "Which Mongoose query method replaces a stored ObjectId with the actual document data from the referenced collection?",
+        "options": [
+          "findAndFetch()",
+          "populate()",
+          "aggregate()",
+          "join()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-13",
+        "question": "What is returned for `createdBy` when executing `noteModel.find().populate(\"createdBy\")`?",
+        "options": [
+          "A raw ObjectId string",
+          "An object containing the user's populated document data (e.g. name, email)",
+          "A boolean true/false",
+          "The total count of user documents"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-14",
+        "question": "Which Mongoose method finds a document by its `_id` and updates it in a single operation?",
+        "options": [
+          "findByIdAndUpdate()",
+          "updateById()",
+          "findOneAndModify()",
+          "patchById()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-15",
+        "question": "Which Mongoose method finds a document by its `_id` and deletes it from the database?",
+        "options": [
+          "removeById()",
+          "findByIdAndDelete()",
+          "deleteFirst()",
+          "eraseOne()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-16",
+        "question": "Which function synchronously creates a hashed password using bcrypt?",
+        "options": [
+          "bcrypt.createHash()",
+          "bcrypt.hashSync()",
+          "bcrypt.encrypt()",
+          "bcrypt.encode()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-17",
+        "question": "What is the second argument in `bcrypt.hashSync(password, 8)`?",
+        "options": [
+          "The encryption key string",
+          "The salt rounds (cost factor)",
+          "The token expiration time",
+          "The maximum string length"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-18",
+        "question": "Which HTTP status code should be returned during registration if the user's email already exists in the database?",
+        "options": [
+          "200 OK",
+          "409 Conflict",
+          "404 Not Found",
+          "500 Internal Server Error"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-19",
+        "question": "During user login, which bcrypt function compares a raw password input with a stored hashed password?",
+        "options": [
+          "bcrypt.verify()",
+          "bcrypt.compareSync()",
+          "bcrypt.check()",
+          "bcrypt.validate()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-20",
+        "question": "What does `bcrypt.compareSync(plainTextPassword, hashedPassword)` return?",
+        "options": [
+          "A new hash string",
+          "A boolean indicating if the passwords match",
+          "A JWT token",
+          "The user's ID"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-21",
+        "question": "What does JWT stand for in web security and authentication?",
+        "options": [
+          "JavaScript Web Template",
+          "JSON Web Token",
+          "Java Working Thread",
+          "Joint Web Transmission"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-22",
+        "question": "Which `jsonwebtoken` method generates a new signed token after successful authentication?",
+        "options": [
+          "jwt.create()",
+          "jwt.sign()",
+          "jwt.generate()",
+          "jwt.encode()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-23",
+        "question": "What information is commonly stored inside a JWT payload during `jwt.sign()`?",
+        "options": [
+          "Plaintext password and database connection string",
+          "User identifier (e.g. `_id`) and role",
+          "The entire MongoDB user collection",
+          "Server file directory paths"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-24",
+        "question": "In `jwt.sign({ _id: user._id }, \"itig3\")`, what is `\"itig3\"`?",
+        "options": [
+          "The database connection string",
+          "The secret key used to sign and verify the token",
+          "The algorithm type definition",
+          "The database user password"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-25",
+        "question": "Which `jsonwebtoken` method validates a token's signature and extracts the decoded payload?",
+        "options": [
+          "jwt.decode()",
+          "jwt.verify()",
+          "jwt.parse()",
+          "jwt.check()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-26",
+        "question": "Once a JWT is verified in authentication middleware, how is the decoded user data made available to down-stream route handlers?",
+        "options": [
+          "By storing it in a global variable across the app",
+          "By attaching it to the request object (e.g., `req.decoded` or `req.user`)",
+          "By writing it to `package.json`",
+          "By returning it as a browser cookie header automatically"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-27",
+        "question": "What function must be invoked inside Express middleware to pass control to the next handler function?",
+        "options": [
+          "res.send()",
+          "next()",
+          "continue()",
+          "res.next()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-28",
+        "question": "What happens if an Express middleware function does not send a response AND does not call `next()`?",
+        "options": [
+          "The application proceeds to the controller immediately",
+          "The client request hangs indefinitely until it times out",
+          "Express throws a 404 error",
+          "The server restarts automatically"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-29",
+        "question": "How can an entire set of routes (e.g., `noteRoutes`) be protected with authentication middleware in Express?",
+        "options": [
+          "noteRoutes.use(verifyToken)",
+          "noteRoutes.protectAll()",
+          "noteRoutes.lock()",
+          "noteRoutes.addMiddleware(verifyToken)"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-30",
+        "question": "What is the correct order of the Express request lifecycle for a protected route?",
+        "options": [
+          "Request -> Controller -> Middleware -> Response",
+          "Request -> Middleware -> Controller -> Response",
+          "Controller -> Request -> Middleware -> Response",
+          "Middleware -> Response -> Controller -> Request"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-31",
+        "question": "What is the purpose of a custom middleware like `checkId`?",
+        "options": [
+          "To compile Mongoose schemas",
+          "To verify resource existence by ID and halt request execution if not found",
+          "To encrypt database connection strings",
+          "To start the Express server listener"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-32",
+        "question": "Which HTTP method and path endpoint convention is standard for user registration?",
+        "options": [
+          "GET /users/register",
+          "POST /users/register",
+          "PUT /users/register",
+          "DELETE /users/register"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-33",
+        "question": "Which HTTP method and path endpoint convention is standard for user login?",
+        "options": [
+          "GET /users/login",
+          "POST /users/login",
+          "PATCH /users/login",
+          "DELETE /users/login"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-34",
+        "question": "How should a client transmit a JWT to a server in protected REST API requests?",
+        "options": [
+          "Inside the request body as an image file",
+          "In the request Authorization header (or custom token header)",
+          "Appended to the database connection URI string",
+          "Inside package.json configuration"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-35",
+        "question": "In the Notes API architecture, why does a Note document store the user's `_id` under `createdBy`?",
+        "options": [
+          "To establish a parent-child relationship linking each note to its creator",
+          "To automatically hash the note content",
+          "To replace the note's title string",
+          "To allow public access without authentication"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-36",
+        "question": "If a user is not found during login (`userModel.findOne({ email })` returns null), how should the server respond?",
+        "options": [
+          "By creating a new user account automatically",
+          "By returning an appropriate message/error indicating user not found or invalid credentials",
+          "By crashing the application",
+          "By returning status code 201 Created"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-37",
+        "question": "What is the result of using `verifyToken` middleware on `POST /note`?",
+        "options": [
+          "Anyone on the internet can add a note",
+          "Only requests supplying a valid JWT can access the controller to add a note",
+          "All existing notes are deleted before creation",
+          "The note is saved without an owner ID"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-38",
+        "question": "Which Mongoose method retrieves a single document matching a specific query filter?",
+        "options": [
+          "userModel.find()",
+          "userModel.findOne()",
+          "userModel.getOne()",
+          "userModel.fetchOne()"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-39",
+        "question": "In Mongoose, how is a field configured to assign a value automatically if omitted during document creation?",
+        "options": [
+          "using the `default` schema option",
+          "using the `auto` schema option",
+          "using the `preset` schema option",
+          "using the `initial` schema option"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-40",
+        "question": "What type does Mongoose provide specifically for handling MongoDB document unique identifiers?",
+        "options": [
+          "mongoose.Types.UUID",
+          "mongoose.Types.ObjectId",
+          "mongoose.Types.DbId",
+          "mongoose.Types.HashId"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-41",
+        "question": "Why is asynchronous bcrypt usage or `hashSync` preferable over non-salted password storage?",
+        "options": [
+          "It generates identical plaintext for all passwords",
+          "It protects user credentials against dictionary and rainbow table attacks",
+          "It bypasses the requirement for database indexes",
+          "It automatically compresses JSON payloads"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-42",
+        "question": "Which of the following is true regarding JWT token verification?",
+        "options": [
+          "JWT tokens can be verified using any random string key",
+          "JWT tokens must be verified using the same secret key that was used to sign them",
+          "JWT verification automatically mutates the database collection",
+          "JWT verification runs synchronously on the database server"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-43",
+        "question": "What does calling `next()` with an error argument (e.g., `next(err)`) do in Express?",
+        "options": [
+          "Ignores the error and proceeds to the controller",
+          "Passes execution to Express's error-handling middleware",
+          "Restarts the Node.js process",
+          "Closes the client socket connection immediately"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-44",
+        "question": "In Express routes, what does `DELETE /note/:id` signify?",
+        "options": [
+          "A GET endpoint returning note history",
+          "A route deleting a specific note resource identified by the dynamic `:id` parameter",
+          "An endpoint updating all user passwords",
+          "A route that registers a new note author"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-45",
+        "question": "What is the primary role of the `middlewares/verfiyToken.js` module in the project structure?",
+        "options": [
+          "Connecting to the local MongoDB database instance",
+          "Authenticating requests by validating JWT tokens before passing control to route controllers",
+          "Hashing user passwords during registration",
+          "Defining Mongoose schemas for notes"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-46",
+        "question": "Which Mongoose method can be used to insert an array of objects into a collection at once?",
+        "options": [
+          "insertMany()",
+          "addArray()",
+          "saveBulk()",
+          "pushAll()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-47",
+        "question": "What happens if a user submits an invalid or expired JWT to a protected endpoint?",
+        "options": [
+          "The middleware catches the error and blocks access, returning an unauthorized response",
+          "The controller executes normally without user data",
+          "The database deletes the user document automatically",
+          "The server converts the token into a new valid token"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-48",
+        "question": "Which route method in Express maps a handler for HTTP PUT requests?",
+        "options": [
+          "app.put()",
+          "app.post()",
+          "app.patch()",
+          "app.update()"
+        ],
+        "correctIndex": 0
+      },
+      {
+        "id": "quiz-15-49",
+        "question": "In a relational sense, how does Mongoose simulate a 'one-to-many' relationship between Users and Notes?",
+        "options": [
+          "By embedding all notes inside a single environment variable",
+          "By storing a User reference (`ObjectId`) in each Note document",
+          "By duplicating user credentials inside every HTTP header",
+          "By creating a separate SQL table automatically"
+        ],
+        "correctIndex": 1
+      },
+      {
+        "id": "quiz-15-50",
+        "question": "Which statement best summarizes authentication vs. authorization in the Notes API?",
+        "options": [
+          "Authentication verifies who the user is (login/token), while authorization determines what resources or routes they are allowed to access",
+          "Authentication encrypts the database, while authorization connects Express to MongoDB",
+          "Authentication is handled by Mongoose, while authorization is handled by Libuv",
+          "Authentication and authorization are identical concepts with no operational difference"
+        ],
+        "correctIndex": 0
+      }
+    ]
   }
 ]

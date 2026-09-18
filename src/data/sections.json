@@ -206,5 +206,21 @@
     "tasksCompleted": 0,
     "quizzesCompleted": 0,
     "summaryCompleted": false
+  },
+  {
+    "id": "15",
+    "title": "Mongoose, Authentication & Notes API",
+    "description": "Mongoose schemas, models, JWT authentication, bcrypt hashing, middleware, and protected CRUD operations.",
+    "fullDescription": "Building a complete Express and MongoDB backend using Mongoose models, schema validation, relationships with ObjectId references, JWT authentication, password hashing with bcrypt, custom middleware, route protection, and CRUD operations for users and notes.",
+    "category": "Node.js",
+    "difficulty": "Hard",
+    "icon": "security",
+    "duration": "4h 00m",
+    "progress": 0,
+    "taskCount": 4,
+    "quizCount": 5,
+    "tasksCompleted": 0,
+    "quizzesCompleted": 0,
+    "summaryCompleted": false
   }
 ]
